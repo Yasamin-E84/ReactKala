@@ -3,17 +3,25 @@ import Banner from "../banner/Banner";
 import DeliveryIncredible from "../DeliveryIncredible/DeliveryIncredible";
 import useFetch from "../Hooks/useFetch";
 import Incredible from "../Incredible/Incredible";
+import Partner from "../Partner/Partner";
+import ProductRecommendation from "../ProductRecommendation/ProductRecommendation";
 import ServiceList from "../ServiceList/ServiceList";
+import Grouping from "../WeirdGroup/WeirdGrouping";
 
 const Home = () => {
   const { data: ads, error: adsError } = useFetch("http://localhost:5000/ads");
   const { data: ads2, error: ads2Error } = useFetch(
     "http://localhost:5000/ads2",
   );
-  const { data: incredible, incredibleError } = useFetch("http://localhost:5000/incredible");
+  const { data: incredible, incredibleError } = useFetch(
+    "http://localhost:5000/incredible",
+  );
   const { data: incredible2, incredible2Error } = useFetch(
     "http://localhost:5000/amazingmobile",
   );
+  const { data: partner } = useFetch("http://localhost:5000/partner");
+
+  const { data: partner2 } = useFetch("http://localhost:5000/partner2");
 
   if (adsError || ads2Error) {
     return (
@@ -50,6 +58,16 @@ const Home = () => {
         classNameDesktop="bg-[#6EB929]"
         incredible={incredible2}
       />
+      <Grouping />
+      <Partner partners={partner} />
+      <ProductRecommendation api="healthProducts" />
+      <ProductRecommendation api="schoolProducts" />
+      <Partner partners={partner2} />
+      <ProductRecommendation api="mobileProducts" />
+      <ProductRecommendation api="gamingProducts" />
+      <ProductRecommendation api="beautyProducts" />
+      <ProductRecommendation api="carProducts" />
+      <ProductRecommendation api="artProducts" />
     </div>
   );
 };

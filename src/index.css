@@ -1,17 +1,28 @@
 @import "tailwindcss";
 
-@theme{
-    --font-Iran: font-Iran;
-    --font-num: font-num;
+@theme {
+  --font-Iran: font-Iran;
+  --font-num: font-num;
 }
 @font-face {
-    font-family: font-Iran;
-    src: url('./assets/fonts/Qs_Iranyekan\ medium.ttf');
+  font-family: font-Iran;
+  src: url("./assets/fonts/Qs_Iranyekan\ medium.ttf");
 }
 @font-face {
-    font-family: font-num;
-    src: url('./assets/fonts/PersianPageNumber-Bold.ttf');
+  font-family: font-num;
+  src: url("./assets/fonts/PersianPageNumber-Bold.ttf");
 }
-*{
-    font-family: var(--font-Iran);
+* {
+  font-family: var(--font-Iran);
+}
+.product-swiper .swiper-button-disabled {
+  display: none;
+}
+
+.product-swiper {
+  direction: rtl;
+}
+
+.swiper-slide {
+  height: auto;
 }

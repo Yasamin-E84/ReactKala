@@ -6335,6 +6335,1262 @@
       "img": "/images/partner/img-4.jpg"
     }
   ],
+  "healthProducts": {
+    "id": 1,
+    "title": "محصولات سلامت و زیبایی",
+    "subtitle": "محصولات پیشنهادی برای سلامت",
+    "products": [
+      {
+        "id": 1,
+        "title": "قرص ویتامین D3-1000 واحدی  بسته 60 عددی",
+        "img": "/images/products/health/img-1.webp",
+        "discount": "15%",
+        "newPrice": "349,000",
+        "oldPrice": "411,000"
+      },
+      {
+        "id": 2,
+        "title": "شامپو تقویت‌کننده ضد ریزش مو فولیکا مخصوص موهای نازک و آسیب‌دیده، حجم 200 میلی‌لیتر، حاوی ویتامین‌های B7 و B6، کافئین و زینک سولفات، افزایش جریان خون مویرگی پوست سر و تقویت پیاز مو با عصاره آرنیکا",
+        "img": "/images/products/health/img-2.webp",
+        "discount": "30%",
+        "newPrice": "1,290,000",
+        "oldPrice": "1,843,000"
+      },
+      {
+        "id": 3,
+        "title": "هدفون بلوتوثی انکر مدل SoundCore R50i A3949 بدون قابلیت نویز کنسلینگ، درگاه شارژ USB Type-C، دارای فناوری AI-Enhanced Calls برای کاهش نویز و بهبود مکالمات، مقاوم در برابر رطوبت و عرق",
+        "img": "/images/products/health/img-3.webp",
+        "discount": "",
+        "newPrice": "349,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 4,
+        "title": "کپسول مگنیفورت هولیستیکا بسته 32 عددی",
+        "img": "/images/products/health/img-4.webp",
+        "discount": "",
+        "newPrice": "219,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 5,
+        "title": "پودر پروتئین با طعم شکلات کاله پرو - 1800 گرم",
+        "img": "/images/products/health/img-5.webp",
+        "discount": "10%",
+        "newPrice": "149,000",
+        "oldPrice": "166,000"
+      },
+      {
+        "id": 6,
+        "title": "قرص منیزیم بیس گلایسینات یوروویتال بسته 60 عددی",
+        "img": "/images/products/health/img-6.webp",
+        "discount": "",
+        "newPrice": "1,290,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 7,
+        "title": "کپسول ژلاتینی امگا 3 یوروویتال بسته 30 عددی",
+        "img": "/images/products/health/img-7.webp",
+        "discount": "",
+        "newPrice": "89,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 8,
+        "title": "قرص کلاژن یوروویتال 1000 میلی‌گرم بسته 30 عددی تقویت سلامت پوست و مو با ویتامین C و آهن، افزایش استحکام و کاهش چین و چروک پوست، آنتی‌اکسیدان قوی و بهبود درخشندگی پوست، ساخت آلمان",
+        "img": "/images/products/health/img-8.webp",
+        "discount": "25%",
+        "newPrice": "12,990,000",
+        "oldPrice": "17,320,000"
+      },
+      {
+        "id": 9,
+        "title": "قرص منیزیم پلاس آیزن و ب6  بسته 60 عددی",
+        "img": "/images/products/health/img-9.webp",
+        "discount": "",
+        "newPrice": "1,790,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 10,
+        "title": "فلوئید ضدآفتاب بی‌رنگ مای SPF50 مدل Smart Defense مناسب انواع پوست، حجم 50 میلی‌لیتر",
+        "img": "/images/products/health/img-10.webp",
+        "discount": "",
+        "newPrice": "89,000",
+        "oldPrice": ""
+      }
+    ]
+  },
+  "schoolProducts": {
+    "id": 2,
+    "title": "لوازم تحریر و کتاب",
+    "subtitle": "محصولات پیشنهادی برای مدرسه و هنر",
+    "products": [
+      {
+        "id": 1,
+        "title": "شربت آی ویلین - 100 میلی لیتر",
+        "img": "/images/products/school/img-1.webp",
+        "discount": "",
+        "newPrice": "699,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 2,
+        "title": "قطره خوراکی دنتول خرمان 2 میلی لیتر",
+        "img": "/images/products/school/img-2.webp",
+        "discount": "10%",
+        "newPrice": "3,990,000",
+        "oldPrice": "4,433,000"
+      },
+      {
+        "id": 3,
+        "title": "ژل ایرالوکس گل دارو- 15 گرم",
+        "img": "/images/products/school/img-3.webp",
+        "discount": "20%",
+        "newPrice": "3,990,000",
+        "oldPrice": "4,988,000"
+      },
+      {
+        "id": 4,
+        "title": "قرص آلفالکسیل آلفاویتامینز بسته 30 عددی",
+        "img": "/images/products/school/img-4.webp",
+        "discount": "15%",
+        "newPrice": "349,000",
+        "oldPrice": "411,000"
+      },
+      {
+        "id": 5,
+        "title": "قرص اکتی ناتال پلاس امگا 3  ابیان دارو بسته 60 عددی",
+        "img": "/images/products/school/img-5.webp",
+        "discount": "",
+        "newPrice": "1,790,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 6,
+        "title": "قرص مولتی وومن آلفا ویتامینز بسته 30 عددی",
+        "img": "/images/products/school/img-6.webp",
+        "discount": "",
+        "newPrice": "18,990,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 7,
+        "title": "شربت ایموفیل جویس یوروویتال حجم 200 میلی لیتر",
+        "img": "/images/products/school/img-7.webp",
+        "discount": "15%",
+        "newPrice": "8,990,000",
+        "oldPrice": "10,576,000"
+      },
+      {
+        "id": 8,
+        "title": "قرص مولتی دیلی آلفا ویتامینز - بسته 30 عددی",
+        "img": "/images/products/school/img-8.webp",
+        "discount": "",
+        "newPrice": "5,990,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 9,
+        "title": "شربت لیکو مولتی ابیان فارمد - 250 میلی لیتر",
+        "img": "/images/products/school/img-9.webp",
+        "discount": "10%",
+        "newPrice": "219,000",
+        "oldPrice": "243,000"
+      },
+      {
+        "id": 10,
+        "title": "محلول خوراکی کالمرز سیمرغ دارو عطار -200 میلی لیتر",
+        "img": "/images/products/school/img-10.webp",
+        "discount": "",
+        "newPrice": "2,490,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 11,
+        "title": "شربت اهورا اسلیپ اهورا دارو - 60 میلی لیتر",
+        "img": "/images/products/school/img-11.webp",
+        "discount": "",
+        "newPrice": "1,290,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 12,
+        "title": "شربت اتنتالین سیمرغ دارو عطار حجم 120 میلی لیتر",
+        "img": "/images/products/school/img-12.webp",
+        "discount": "30%",
+        "newPrice": "8,990,000",
+        "oldPrice": "12,843,000"
+      },
+      {
+        "id": 13,
+        "title": "قرص سیمو تری فلکس سیمرغ دارو عطار بسته 60 عددی",
+        "img": "/images/products/school/img-13.webp",
+        "discount": "15%",
+        "newPrice": "5,990,000",
+        "oldPrice": "7,047,000"
+      },
+      {
+        "id": 14,
+        "title": "قرص نورواستایل نکستایل بسته 30 عددی",
+        "img": "/images/products/school/img-14.webp",
+        "discount": "",
+        "newPrice": "890,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 15,
+        "title": "سافت ژل فلکس آنتی ایجینگ بسته 30 عددی",
+        "img": "/images/products/school/img-15.webp",
+        "discount": "",
+        "newPrice": "219,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 16,
+        "title": "قرص مولتی دیلی آلفا ویتامینز بسته 60 عددی",
+        "img": "/images/products/school/img-16.webp",
+        "discount": "",
+        "newPrice": "699,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 17,
+        "title": "کپسول امگا 3 بدون جیوه 1000 میلی گرم به همراه کپسول امگا 3 6 9 مونم اکسیر آفرین آریا - 2 بسته 30 عددی",
+        "img": "/images/products/school/img-17.webp",
+        "discount": "20%",
+        "newPrice": "1,290,000",
+        "oldPrice": "1,612,000"
+      },
+      {
+        "id": 18,
+        "title": "سافت ژل فلکسی ژنو ویوا تیون بسته 60 عددی",
+        "img": "/images/products/school/img-18.webp",
+        "discount": "",
+        "newPrice": "1,790,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 19,
+        "title": "قرص اوزیل فولات بسته 60 عددی",
+        "img": "/images/products/school/img-19.webp",
+        "discount": "",
+        "newPrice": "1,290,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 20,
+        "title": "سافت ژل درموسیس ویوا تون بسته 30 عددی",
+        "img": "/images/products/school/img-20.webp",
+        "discount": "5%",
+        "newPrice": "149,000",
+        "oldPrice": "157,000"
+      }
+    ]
+  },
+  "mobileProducts": {
+    "id": 3,
+    "title": "گوشی موبایل",
+    "subtitle": "محبوب‌ترین موبایل‌ها",
+    "products": [
+      {
+        "id": 1,
+        "title": "دفتر مشق 100 برگ آلبالو طرح جنگ ستارگان کد 2287",
+        "img": "/images/products/mobile/img-1.webp",
+        "discount": "5%",
+        "newPrice": "3,990,000",
+        "oldPrice": "4,200,000"
+      },
+      {
+        "id": 2,
+        "title": "دفتر مشق 100 برگ بانیبو مدل محمد صلاح کد 3001",
+        "img": "/images/products/mobile/img-2.webp",
+        "discount": "",
+        "newPrice": "890,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 3,
+        "title": "دفتر نت موسیقی 50 برگ خندالو مدل آلیسون سریال تین ولف Teen Wolf کد 28455",
+        "img": "/images/products/mobile/img-3.webp",
+        "discount": "20%",
+        "newPrice": "3,990,000",
+        "oldPrice": "4,988,000"
+      },
+      {
+        "id": 4,
+        "title": "دفتر مشق 100 برگ آلبالو طرح فانتزی ایرانی اسلامی کد 2280",
+        "img": "/images/products/mobile/img-4.webp",
+        "discount": "",
+        "newPrice": "8,990,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 5,
+        "title": "دفتر مشق 40 برگ آلما طرح DINO مدل طلقی کد 7420",
+        "img": "/images/products/mobile/img-5.webp",
+        "discount": "10%",
+        "newPrice": "18,990,000",
+        "oldPrice": "21,100,000"
+      },
+      {
+        "id": 6,
+        "title": "دفتر مشق 50 برگ خندالو مدل آلیسون سریال تین ولف Teen Wolf کد 28455",
+        "img": "/images/products/mobile/img-6.webp",
+        "discount": "",
+        "newPrice": "1,290,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 7,
+        "title": "دفتر مشق 100 برگ آلبالو طرح محمدصلاح کد 2042",
+        "img": "/images/products/mobile/img-7.webp",
+        "discount": "",
+        "newPrice": "1,790,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 8,
+        "title": "دفتر مشق 100 برگ آلبالو طرح فانتزی زوج ایرانی اسلامی کد 2278",
+        "img": "/images/products/mobile/img-8.webp",
+        "discount": "",
+        "newPrice": "12,990,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 9,
+        "title": "دفتر مشق 100 برگ آلبالو طرح فانتزی ایرانی اسلامی کد 2276",
+        "img": "/images/products/mobile/img-9.webp",
+        "discount": "10%",
+        "newPrice": "8,990,000",
+        "oldPrice": "9,989,000"
+      },
+      {
+        "id": 10,
+        "title": "دفتر مشق 60 برگ آلما مدل طلقی کد 7627",
+        "img": "/images/products/mobile/img-10.webp",
+        "discount": "5%",
+        "newPrice": "25,990,000",
+        "oldPrice": "27,358,000"
+      },
+      {
+        "id": 11,
+        "title": "دفتر مشق 80 برگ سیمی مدل دوچرخه کد v2",
+        "img": "/images/products/mobile/img-11.webp",
+        "discount": "10%",
+        "newPrice": "349,000",
+        "oldPrice": "388,000"
+      },
+      {
+        "id": 12,
+        "title": "دفتر مشق 80 برگ آلما طرح TRAVEL مدل طلقی کد 7820",
+        "img": "/images/products/mobile/img-12.webp",
+        "discount": "",
+        "newPrice": "12,990,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 13,
+        "title": "دفتر مشق 100 برگ آلبالو طرح انیمیشن رامبل کد 2146",
+        "img": "/images/products/mobile/img-13.webp",
+        "discount": "20%",
+        "newPrice": "8,990,000",
+        "oldPrice": "11,238,000"
+      },
+      {
+        "id": 14,
+        "title": "دفتر مشق 100 برگ خندالو طرح آفرود (Off Road) کد F5214",
+        "img": "/images/products/mobile/img-14.webp",
+        "discount": "",
+        "newPrice": "1,790,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 15,
+        "title": "دفتر مشق 100 برگ آلبالو طرح محمدصلاح کد 2043",
+        "img": "/images/products/mobile/img-15.webp",
+        "discount": "",
+        "newPrice": "89,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 16,
+        "title": "دفتر مشق 100 برگ آلما طرح RAINBOW مدل طلقی کد 7117",
+        "img": "/images/products/mobile/img-16.webp",
+        "discount": "",
+        "newPrice": "349,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 17,
+        "title": "دفتر مشق 100 برگ آلبالو طرح انیمیشن ترول ها کد 2145",
+        "img": "/images/products/mobile/img-17.webp",
+        "discount": "",
+        "newPrice": "1,790,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 18,
+        "title": "دفتر مشق 50 برگ آلبالو طرح فانتزی ایرانی اسلامی کد 2277",
+        "img": "/images/products/mobile/img-18.webp",
+        "discount": "20%",
+        "newPrice": "3,990,000",
+        "oldPrice": "4,988,000"
+      },
+      {
+        "id": 19,
+        "title": "دفتر مشق 60 برگ آلما طرح کلاسیک مدل آرت کد 7690",
+        "img": "/images/products/mobile/img-19.webp",
+        "discount": "",
+        "newPrice": "699,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 20,
+        "title": "دفتر مشق 60 برگ آلما طرح کلاسیک مدل آرت کد 7690",
+        "img": "/images/products/mobile/img-20.webp",
+        "discount": "",
+        "newPrice": "1,790,000",
+        "oldPrice": ""
+      }
+    ]
+  },
+  "gamingProducts": {
+    "id": 4,
+    "title": "هدفون و تجهیزات گیمینگ",
+    "subtitle": "محصولات دیجیتال پیشنهادی",
+    "products": [
+      {
+        "id": 1,
+        "title": "گوشی موبایل هانوفر مدل 5500 دو سیم‌کارت ظرفیت 32 مگابایت و رم 32 مگابایت",
+        "img": "/images/products/gaming/img-1.webp",
+        "discount": "",
+        "newPrice": "699,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 2,
+        "title": "گوشی موبایل وکال مدل F1 دو سیم‌کارت ظرفیت 32 مگابایت و رم 32 مگابایت",
+        "img": "/images/products/gaming/img-2.webp",
+        "discount": "",
+        "newPrice": "349,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 3,
+        "title": "گوشی موبایل وکال مدل F2 دو سیم‌کارت ظرفیت 32 مگابایت و رم 32 مگابایت",
+        "img": "/images/products/gaming/img-3.webp",
+        "discount": "",
+        "newPrice": "2,490,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 4,
+        "title": "گوشی موبایل هانوفر مدل V5 Pro دو سیم کارت ظرفیت 32 مگابایت و رم 32 مگابایت",
+        "img": "/images/products/gaming/img-4.webp",
+        "discount": "10%",
+        "newPrice": "890,000",
+        "oldPrice": "989,000"
+      },
+      {
+        "id": 5,
+        "title": "گوشی موبایل هانوفر مدل V6 Pro دو سیم کارت ظرفیت 32 مگابایت",
+        "img": "/images/products/gaming/img-5.webp",
+        "discount": "",
+        "newPrice": "89,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 6,
+        "title": "گوشی موبایل هانوفر مدل 2760 Flip دو سیم کارت ظرفیت 128 مگابایت و رم 128 مگابایت",
+        "img": "/images/products/gaming/img-6.webp",
+        "discount": "15%",
+        "newPrice": "25,990,000",
+        "oldPrice": "30,576,000"
+      },
+      {
+        "id": 7,
+        "title": "گوشی موبایل هانوفر مدل 6700 دو سیم کارت ظرفیت 32 مگابایت و رم 32 مگابایت",
+        "img": "/images/products/gaming/img-7.webp",
+        "discount": "10%",
+        "newPrice": "2,490,000",
+        "oldPrice": "2,767,000"
+      },
+      {
+        "id": 8,
+        "title": "گوشی موبایل هانوفر مدل 2720 Flip دو سیم کارت ظرفیت 128 مگابایت و رم 128 مگابایت",
+        "img": "/images/products/gaming/img-8.webp",
+        "discount": "20%",
+        "newPrice": "219,000",
+        "oldPrice": "274,000"
+      },
+      {
+        "id": 9,
+        "title": "گوشی موبایل هانوفر مدل 5720 ظرفیت 128 مگابایت",
+        "img": "/images/products/gaming/img-9.webp",
+        "discount": "",
+        "newPrice": "219,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 10,
+        "title": "گوشی موبایل هانوفر مدل 15Pro دو سیم کارت ظرفیت 32 مگابایت و رم 32 مگابایت",
+        "img": "/images/products/gaming/img-10.webp",
+        "discount": "20%",
+        "newPrice": "499,000",
+        "oldPrice": "624,000"
+      },
+      {
+        "id": 11,
+        "title": "گوشی موبایل وکال مدل V0 Core دو سیم کارت ظرفیت 32 گیگابایت و رم 2 گیگابایت",
+        "img": "/images/products/gaming/img-11.webp",
+        "discount": "25%",
+        "newPrice": "699,000",
+        "oldPrice": "932,000"
+      },
+      {
+        "id": 12,
+        "title": "گوشی موبایل هانوفر مدل 2760 ظرفیت 32 مگابایت",
+        "img": "/images/products/gaming/img-12.webp",
+        "discount": "",
+        "newPrice": "12,990,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 13,
+        "title": "گوشی موبایل هانوفر مدل 2720N دو سیم کارت ظرفیت 32 مگابایت و رم 32 مگابایت",
+        "img": "/images/products/gaming/img-13.webp",
+        "discount": "",
+        "newPrice": "890,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 14,
+        "title": "گوشی موبایل هانوفر مدل V6 دو سیم کارت ظرفیت 32 مگابایت",
+        "img": "/images/products/gaming/img-14.webp",
+        "discount": "",
+        "newPrice": "8,990,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 15,
+        "title": "گوشی موبایل هانوفر مدل 150 2024 دو سیم کارت ظرفیت 32 مگابایت و رم 24 مگابایت",
+        "img": "/images/products/gaming/img-15.webp",
+        "discount": "25%",
+        "newPrice": "5,990,000",
+        "oldPrice": "7,987,000"
+      },
+      {
+        "id": 16,
+        "title": "گوشی موبایل هانوفر مدل 5320 ظرفیت 128 مگابایت",
+        "img": "/images/products/gaming/img-16.webp",
+        "discount": "10%",
+        "newPrice": "18,990,000",
+        "oldPrice": "21,100,000"
+      },
+      {
+        "id": 17,
+        "title": "گوشی موبایل هانوفر مدل Axiom 2 دو سیم کارت ظرفیت 128 گیگابایت و رم 8 گیگابایت",
+        "img": "/images/products/gaming/img-17.webp",
+        "discount": "25%",
+        "newPrice": "219,000",
+        "oldPrice": "292,000"
+      },
+      {
+        "id": 18,
+        "title": "گوشی موبایل هانوفر مدل 5300 4G دو سیم‌کارت ظرفیت 16 گیگابایت و رم 2 گیگابایت",
+        "img": "/images/products/gaming/img-18.webp",
+        "discount": "",
+        "newPrice": "1,290,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 19,
+        "title": "گوشی موبایل جنرال لوکس مدل Flex دو سیم‌کارت ظرفیت 32 مگابایت",
+        "img": "/images/products/gaming/img-19.webp",
+        "discount": "30%",
+        "newPrice": "89,000",
+        "oldPrice": "127,000"
+      },
+      {
+        "id": 20,
+        "title": "گوشی موبایل هانوفر مدل 210 دو سیم کارت",
+        "img": "/images/products/gaming/img-20.webp",
+        "discount": "5%",
+        "newPrice": "149,000",
+        "oldPrice": "157,000"
+      }
+    ]
+  },
+  "carProducts": {
+    "id": 5,
+    "title": "لوازم خودرو",
+    "subtitle": "محصولات خودرو و موتورسیکلت",
+    "products": [
+      {
+        "id": 1,
+        "title": "هدست مخصوص بازی اوی مدل MOJ MULTIPOINT A7 BL80",
+        "img": "/images/products/car/img-1.webp",
+        "discount": "10%",
+        "newPrice": "3,990,000",
+        "oldPrice": "4,433,000"
+      },
+      {
+        "id": 2,
+        "title": "هدست بی سیم اوی مدل SHO CONNECTIVITY A780BL SENSITIVY",
+        "img": "/images/products/car/img-2.webp",
+        "discount": "",
+        "newPrice": "1,790,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 3,
+        "title": "هدست طرح kuromi مدل AH-807Y",
+        "img": "/images/products/car/img-3.webp",
+        "discount": "",
+        "newPrice": "890,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 4,
+        "title": "هدست بی سیم اوی مدل DOC DESING A710 BL FLEXIBLE",
+        "img": "/images/products/car/img-4.webp",
+        "discount": "20%",
+        "newPrice": "25,990,000",
+        "oldPrice": "32,488,000"
+      },
+      {
+        "id": 5,
+        "title": "هدست بلوتوثی اوی مدل MB TEXTURE A780 CALLS BL",
+        "img": "/images/products/car/img-5.webp",
+        "discount": "5%",
+        "newPrice": "12,990,000",
+        "oldPrice": "13,674,000"
+      },
+      {
+        "id": 6,
+        "title": "هدست مخصوص بازی اوی مدل MAH COMPATIBL A997 BL CALLING",
+        "img": "/images/products/car/img-6.webp",
+        "discount": "20%",
+        "newPrice": "12,990,000",
+        "oldPrice": "16,238,000"
+      },
+      {
+        "id": 7,
+        "title": "هدست بی سیم اوی مدل MOJ SPORT A7 10BL THINKPLUS",
+        "img": "/images/products/car/img-7.webp",
+        "discount": "",
+        "newPrice": "18,990,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 8,
+        "title": "هدفون بلوتوثی اوی مدل YAM ACTION A89 6BL",
+        "img": "/images/products/car/img-8.webp",
+        "discount": "",
+        "newPrice": "149,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 9,
+        "title": "هدست تلکس مدل 850 Airbus",
+        "img": "/images/products/car/img-9.webp",
+        "discount": "30%",
+        "newPrice": "349,000",
+        "oldPrice": "499,000"
+      },
+      {
+        "id": 10,
+        "title": "هدست گیمینگ اکسیژن مدل   A-16",
+        "img": "/images/products/car/img-10.webp",
+        "discount": "",
+        "newPrice": "3,990,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 11,
+        "title": "هدست لنوو مدل MPO HEADSET HD200 NEW NACKLACE",
+        "img": "/images/products/car/img-11.webp",
+        "discount": "10%",
+        "newPrice": "349,000",
+        "oldPrice": "388,000"
+      },
+      {
+        "id": 12,
+        "title": "هدست مخصوص بازی اوی مدل SHN RESISTANCE A997 BL COMPACT",
+        "img": "/images/products/car/img-12.webp",
+        "discount": "10%",
+        "newPrice": "18,990,000",
+        "oldPrice": "21,100,000"
+      },
+      {
+        "id": 13,
+        "title": "هدست بی سیم اوی مدل JNB HEADPHONE A780 PRO",
+        "img": "/images/products/car/img-13.webp",
+        "discount": "",
+        "newPrice": "1,790,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 14,
+        "title": "هدست بی سیم اوی مدل JNB COMPACT A100 BL",
+        "img": "/images/products/car/img-14.webp",
+        "discount": "25%",
+        "newPrice": "219,000",
+        "oldPrice": "292,000"
+      },
+      {
+        "id": 15,
+        "title": "هندزفری تو گوشی  مدل QL-514 کد 12",
+        "img": "/images/products/car/img-15.webp",
+        "discount": "25%",
+        "newPrice": "349,000",
+        "oldPrice": "465,000"
+      },
+      {
+        "id": 16,
+        "title": "هدست مخصوص بازی اوی مدل DI CONFIDENCE A997 INCLUDED BL",
+        "img": "/images/products/car/img-16.webp",
+        "discount": "",
+        "newPrice": "89,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 17,
+        "title": "هندزفری اوی مدل MOR",
+        "img": "/images/products/car/img-17.webp",
+        "discount": "20%",
+        "newPrice": "1,290,000",
+        "oldPrice": "1,612,000"
+      },
+      {
+        "id": 18,
+        "title": "هدست مخصوص بازی اوی مدل ELH PREMIUM AT6 USAGE",
+        "img": "/images/products/car/img-18.webp",
+        "discount": "20%",
+        "newPrice": "25,990,000",
+        "oldPrice": "32,488,000"
+      },
+      {
+        "id": 19,
+        "title": "هدست مدل SWH 2029",
+        "img": "/images/products/car/img-19.webp",
+        "discount": "5%",
+        "newPrice": "149,000",
+        "oldPrice": "157,000"
+      },
+      {
+        "id": 20,
+        "title": "هدست مخصوص بازی اوی مدل SHN LISTENING A780 PRO MOTION",
+        "img": "/images/products/car/img-20.webp",
+        "discount": "20%",
+        "newPrice": "8,990,000",
+        "oldPrice": "11,238,000"
+      }
+    ]
+  },
+  "artProducts": {
+    "id": 6,
+    "title": "ابزار طراحی و هنر",
+    "subtitle": "محصولات هنری و نوشت‌افزار",
+    "products": [
+      {
+        "id": 1,
+        "title": "فوم کفی صندلی خودرو مدل لارا کد 315 مناسب برای سمند قدیم",
+        "img": "/images/products/art/img-1.webp",
+        "discount": "30%",
+        "newPrice": "2,490,000",
+        "oldPrice": "3,557,000"
+      },
+      {
+        "id": 2,
+        "title": "اهرم دوشاخه کلاج مدل 21665 مناسب برای 405",
+        "img": "/images/products/art/img-2.webp",
+        "discount": "15%",
+        "newPrice": "25,990,000",
+        "oldPrice": "30,576,000"
+      },
+      {
+        "id": 3,
+        "title": "لوله رابط هواکش خودرو پیشرو یدک ایران کد 379 مناسب برای سمند ای اف سون",
+        "img": "/images/products/art/img-3.webp",
+        "discount": "",
+        "newPrice": "890,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 4,
+        "title": "فوم صندلی خودرو مدل HR مناسب برای ال نود",
+        "img": "/images/products/art/img-4.webp",
+        "discount": "",
+        "newPrice": "149,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 5,
+        "title": "انبر اتصال جفتي مدل IR-SH  متوسط بسته 2 عددی",
+        "img": "/images/products/art/img-5.webp",
+        "discount": "20%",
+        "newPrice": "149,000",
+        "oldPrice": "186,000"
+      },
+      {
+        "id": 6,
+        "title": "روکش پدال ترمز و گاز آریزو مدل All مناسب برای آریزو",
+        "img": "/images/products/art/img-6.webp", 
+        "discount": "25%",
+        "newPrice": "699,000",
+        "oldPrice": "932,000"
+      },
+      {
+        "id": 7,
+        "title": "مجموعه ابزار خودرو رونیکس مدل RH- 9199 مجموعه 14 عددی",
+        "img": "/images/products/art/img-7.webp",
+        "discount": "",
+        "newPrice": "219,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 8,
+        "title": "فوم صندلی خودرو کد 75 مناسب برای ال نود",
+        "img": "/images/products/art/img-8.webp",
+        "discount": "",
+        "newPrice": "219,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 9,
+        "title": "طلق خطر عقب راست مدل Org مناسب برای پیکان وانت",
+        "img": "/images/products/art/img-9.webp",
+        "discount": "25%",
+        "newPrice": "1,290,000",
+        "oldPrice": "1,720,000"
+      },
+      {
+        "id": 10,
+        "title": "خار کابل پنل چرخشی وی اف ان مدل ساندن کد bbz-934 مناسب برای پژو 405 بسته 5 عددی",
+        "img": "/images/products/art/img-10.webp",
+        "discount": "",
+        "newPrice": "1,290,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 11,
+        "title": "کابل اتصال باتری به باتری مدل France 1100A-3.5m مجموعه دو عددی",
+        "img": "/images/products/art/img-11.webp",
+        "discount": "",
+        "newPrice": "149,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 12,
+        "title": "درفش پنچرگیری لاستیک تیوبلس ایگل مدل SMT -EAGLE-FELZI-2PCSمجموعه 2عددی",
+        "img": "/images/products/art/img-12.webp",
+        "discount": "",
+        "newPrice": "12,990,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 13,
+        "title": "لوله روغن ریز خودرو پیشرو یدک ایران کد 14 مناسب برای پژو 405",
+        "img": "/images/products/art/img-13.webp",
+        "discount": "",
+        "newPrice": "3,990,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 14,
+        "title": "کابل اتصال باطری استارمکس مدل STAR -MAX-1000A آمپر1000A",
+        "img": "/images/products/art/img-14.webp",
+        "discount": "",
+        "newPrice": "890,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 15,
+        "title": "فوم صندلی خودرو مدل l90 مناسب برای ال90",
+        "img": "/images/products/art/img-15.webp",
+        "discount": "20%",
+        "newPrice": "3,990,000",
+        "oldPrice": "4,988,000"
+      },
+      {
+        "id": 16,
+        "title": "مخزن روغن ترمز ایساکو مدل 253 مناسب برای تارا",
+        "img": "/images/products/art/img-16.webp",
+        "discount": "",
+        "newPrice": "499,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 17,
+        "title": "اهرم تنظیم صندلی خودرو آل استار کد 884 مناسب برای پژو 405",
+        "img": "/images/products/art/img-17.webp",
+        "discount": "",
+        "newPrice": "2,490,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 18,
+        "title": "والو لاستیک ایساکو مدل 369 مناسب برای رنو تندر",
+        "img": "/images/products/art/img-18.webp",
+        "discount": "25%",
+        "newPrice": "219,000",
+        "oldPrice": "292,000"
+      },
+      {
+        "id": 19,
+        "title": "سیم کشی رله چهار چراغ خودرو مدل h4 مناسب برای پژو پارس",
+        "img": "/images/products/art/img-19.webp",
+        "discount": "10%",
+        "newPrice": "349,000",
+        "oldPrice": "388,000"
+      },
+      {
+        "id": 20,
+        "title": "تسمه بکسل مدل بلک بول کد YP-AB-05CM",
+        "img": "/images/products/art/img-20.webp",
+        "discount": "15%",
+        "newPrice": "1,790,000",
+        "oldPrice": "2,106,000"
+      }
+    ]
+  },
+  "beautyProducts": {
+    "id": 7,
+    "title": "آرایشی و بهداشتی",
+    "subtitle": "محصولات مراقبت شخصی",
+    "products": [
+      {
+        "id": 1,
+        "title": "راپید روترینگ مدل isograph کد 14",
+        "img": "/images/products/beauty/img-1.webp",
+        "discount": "",
+        "newPrice": "219,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 2,
+        "title": "روان نویس مشکی فونیکس هالک مدل ISKF-0001",
+        "img": "/images/products/beauty/img-2.webp",
+        "discount": "20%",
+        "newPrice": "5,990,000",
+        "oldPrice": "7,488,000"
+      },
+      {
+        "id": 3,
+        "title": "راپید روترینگ 0.7 میلیمتر مدل isograph کد 070",
+        "img": "/images/products/beauty/img-3.webp",
+        "discount": "",
+        "newPrice": "2,490,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 4,
+        "title": "روان نویس فونیکس مدل HULK",
+        "img": "/images/products/beauty/img-4.webp",
+        "discount": "",
+        "newPrice": "89,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 5,
+        "title": "روان نویس فونیکس مدل HULK",
+        "img": "/images/products/beauty/img-5.webp",
+        "discount": "",
+        "newPrice": "2,490,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 6,
+        "title": "خودکار لینک مدل OILFLO بسته 6 عددی",
+        "img": "/images/products/beauty/img-6.webp",
+        "discount": "",
+        "newPrice": "349,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 7,
+        "title": "روان نویس فونیکس مدل Hulk - بسته 2 رنگ",
+        "img": "/images/products/beauty/img-7.webp",
+        "discount": "5%",
+        "newPrice": "499,000",
+        "oldPrice": "525,000"
+      },
+      {
+        "id": 8,
+        "title": "راپید روترینگ 0.6 میلیمتر مدل isograph کد 060",
+        "img": "/images/products/beauty/img-8.webp",
+        "discount": "25%",
+        "newPrice": "499,000",
+        "oldPrice": "665,000"
+      },
+      {
+        "id": 9,
+        "title": "خودکار یالونگ مدل سه گوش کد YL19271010 بسته 12 عددی",
+        "img": "/images/products/beauty/img-9.webp",
+        "discount": "",
+        "newPrice": "890,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 10,
+        "title": "روان نویس رین مدل GP-2073A قطر 0.7 میلی متر",
+        "img": "/images/products/beauty/img-10.webp",
+        "discount": "",
+        "newPrice": "890,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 11,
+        "title": "راپید روترینگ مدل isograph 0.7",
+        "img": "/images/products/beauty/img-11.webp",
+        "discount": "",
+        "newPrice": "1,790,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 12,
+        "title": "راپید روترینگ مدل isograph کد 0.80",
+        "img": "/images/products/beauty/img-12.webp",
+        "discount": "",
+        "newPrice": "1,790,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 13,
+        "title": "خودکار 0.7 میلی متری مدل تیر تفنگ  کد 001",
+        "img": "/images/products/beauty/img-13.webp",
+        "discount": "20%",
+        "newPrice": "149,000",
+        "oldPrice": "186,000"
+      },
+      {
+        "id": 14,
+        "title": "خودکار لینک مدل OTO L.V",
+        "img": "/images/products/beauty/img-14.webp",
+        "discount": "15%",
+        "newPrice": "1,790,000",
+        "oldPrice": "2,106,000"
+      },
+      {
+        "id": 15,
+        "title": "خودکار روترینگ مدل TIKKY SPECIAL کد 154",
+        "img": "/images/products/beauty/img-15.webp",
+        "discount": "",
+        "newPrice": "499,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 16,
+        "title": "روان نویس 10 رنگ کینگ مدل K9020",
+        "img": "/images/products/beauty/img-16.webp",
+        "discount": "20%",
+        "newPrice": "1,790,000",
+        "oldPrice": "2,238,000"
+      },
+      {
+        "id": 17,
+        "title": "روان نویس یونی بال مدل جت استریم فشاری SNX-210",
+        "img": "/images/products/beauty/img-17.webp",
+        "discount": "",
+        "newPrice": "12,990,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 18,
+        "title": "روان نویس 20 رنگ استدلر مدل Triplus Brilliant Ciolours",
+        "img": "/images/products/beauty/img-18.webp",
+        "discount": "30%",
+        "newPrice": "349,000",
+        "oldPrice": "499,000"
+      },
+      {
+        "id": 19,
+        "title": "روان نویس یونی بال کد UB100",
+        "img": "/images/products/beauty/img-19.webp",
+        "discount": "",
+        "newPrice": "499,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 20,
+        "title": "روان نویس یونی بال مدل دولوکس کد UB177 بسته 2 عددی",
+        "img": "/images/products/beauty/img-20.webp",
+        "discount": "",
+        "newPrice": "5,990,000",
+        "oldPrice": ""
+      }
+    ]
+  },
+  "recommendedProducts": {
+    "id": 8,
+    "title": "محصولات پیشنهادی",
+    "subtitle": "انتخاب‌شده برای شما",
+    "products": [
+      {
+        "id": 1,
+        "title": "کرم مرطوب کننده اوری فاب مدل آلوئه ورا حجم 50 میلی لیتر",
+        "img": "https://dkstatics-public.digikala.com/digikala-products/6f8a47936c74f5a5be91d92b003b62dbf6239b26_1680627185.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90dkstatics-public.digikala.com/digikala-products/6f8a47936c74f5a5be91d92b003b62dbf6239b26_1680627185.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90",
+        "discount": "5%",
+        "newPrice": "499,000",
+        "oldPrice": "525,000"
+      },
+      {
+        "id": 2,
+        "title": "وازلین وازلین مدل Aleo حجم 50 میلی لیتر بسته 3 عددی",
+        "img": "https://dkstatics-public.digikala.com/digikala-products/5a7225723d4662f4a041db8d43e7b7b5ff92ef07_1630306391.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90dkstatics-public.digikala.com/digikala-products/5a7225723d4662f4a041db8d43e7b7b5ff92ef07_1630306391.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90",
+        "discount": "5%",
+        "newPrice": "2,490,000",
+        "oldPrice": "2,621,000"
+      },
+      {
+        "id": 3,
+        "title": "وازلین وازلین مدل Original and Jelly حجم 250 میلی لیتر مجموعه 2 عددی",
+        "img": "https://dkstatics-public.digikala.com/digikala-products/b032b2fed9d5389245a9eb59b2dd01372ca08c71_1713430772.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90dkstatics-public.digikala.com/digikala-products/b032b2fed9d5389245a9eb59b2dd01372ca08c71_1713430772.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90",
+        "discount": "10%",
+        "newPrice": "5,990,000",
+        "oldPrice": "6,656,000"
+      },
+      {
+        "id": 4,
+        "title": "وازلین وازلین مدل Aleo حجم 50 میلی لیتر بسته 2 عددی",
+        "img": "https://dkstatics-public.digikala.com/digikala-products/8b86d853e666f0308e4a1849aa144fb38cdf3ca2_1630306349.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90dkstatics-public.digikala.com/digikala-products/8b86d853e666f0308e4a1849aa144fb38cdf3ca2_1630306349.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90",
+        "discount": "25%",
+        "newPrice": "349,000",
+        "oldPrice": "465,000"
+      },
+      {
+        "id": 5,
+        "title": "کرم دست وکالی مدل آلوورا مناسب برای انواع پوست حجم 130 میلی‌لیتر",
+        "img": "https://dkstatics-public.digikala.com/digikala-products/5da745bb6953ea0dce567a9ee7ce44c8dc504e65_1780831369.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90dkstatics-public.digikala.com/digikala-products/5da745bb6953ea0dce567a9ee7ce44c8dc504e65_1780831369.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90",
+        "discount": "",
+        "newPrice": "12,990,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 6,
+        "title": "کرم نرم کننده ویتامر مدل آلوئه ورا 002 حجم 150 میلی لیتر مجموعه دوعددی",
+        "img": "https://dkstatics-public.digikala.com/digikala-products/a4597d68acd68b464fd791dcdab52dc62de3b7d5_1708525561.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90dkstatics-public.digikala.com/digikala-products/a4597d68acd68b464fd791dcdab52dc62de3b7d5_1708525561.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90",
+        "discount": "",
+        "newPrice": "499,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 7,
+        "title": "وازلین وازلین مدل Aloe Fresh حجم 100 میلی لیتر مجموعه 2 عددی",
+        "img": "https://dkstatics-public.digikala.com/digikala-products/31ca64c8b832b95d71ffde077f27efff5394c5e3_1713431452.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90dkstatics-public.digikala.com/digikala-products/31ca64c8b832b95d71ffde077f27efff5394c5e3_1713431452.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90",
+        "discount": "",
+        "newPrice": "1,290,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 8,
+        "title": "وازلین وازلین مدل Aloe and Cocoa حجم 100میلی لیتر مجموعه 2 عددی",
+        "img": "https://dkstatics-public.digikala.com/digikala-products/668912f36c1a843481d7e29c571cfbdcc2e60cf0_1713432135.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90dkstatics-public.digikala.com/digikala-products/668912f36c1a843481d7e29c571cfbdcc2e60cf0_1713432135.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90",
+        "discount": "",
+        "newPrice": "699,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 9,
+        "title": "کرم نرم کننده اوری فاب مدل Urea 3 حجم 100 میلی لیتر",
+        "img": "https://dkstatics-public.digikala.com/digikala-products/dd1b00a6fa397b5259e16795ce5507243020a25f_1642412204.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90dkstatics-public.digikala.com/digikala-products/dd1b00a6fa397b5259e16795ce5507243020a25f_1642412204.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90",
+        "discount": "15%",
+        "newPrice": "89,000",
+        "oldPrice": "105,000"
+      },
+      {
+        "id": 10,
+        "title": "کرم نرم کننده اوری فاب مدل Urea 10 حجم 100 میلی لیتر",
+        "img": "https://dkstatics-public.digikala.com/digikala-products/e7a62108092861586bd4b671e26234e362c9ce93_1642403512.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90dkstatics-public.digikala.com/digikala-products/e7a62108092861586bd4b671e26234e362c9ce93_1642403512.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90",
+        "discount": "",
+        "newPrice": "12,990,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 11,
+        "title": "کرم نرم کننده و آبرسان نیوآ مدل RTYWQ DFXZ حجم 75 میلی لیتر",
+        "img": "https://dkstatics-public.digikala.com/digikala-products/e460cc830a0f679dcb3216584a569754e0a0b24b_1690785941.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90dkstatics-public.digikala.com/digikala-products/e460cc830a0f679dcb3216584a569754e0a0b24b_1690785941.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90",
+        "discount": "30%",
+        "newPrice": "1,290,000",
+        "oldPrice": "1,843,000"
+      },
+      {
+        "id": 12,
+        "title": "وازلین وازلین مدل Petroleum Fresh حجم 100 میلی لیتر",
+        "img": "https://dkstatics-public.digikala.com/digikala-products/bb72e62bfab40f96e5e9ad0d2f6563f0508491fc_1598944094.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90dkstatics-public.digikala.com/digikala-products/bb72e62bfab40f96e5e9ad0d2f6563f0508491fc_1598944094.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90",
+        "discount": "5%",
+        "newPrice": "349,000",
+        "oldPrice": "367,000"
+      },
+      {
+        "id": 13,
+        "title": "وازلین وازلین مدل jelly حجم 50 میلی لیتر بسته 3 عددی",
+        "img": "https://dkstatics-public.digikala.com/digikala-products/b78848a032a18a4e4b3d92812302c30d86c77639_1629841157.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90dkstatics-public.digikala.com/digikala-products/b78848a032a18a4e4b3d92812302c30d86c77639_1629841157.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90",
+        "discount": "20%",
+        "newPrice": "25,990,000",
+        "oldPrice": "32,488,000"
+      },
+      {
+        "id": 14,
+        "title": "وازلین وازلین مدل skin protecting jelly حجم 5.5 میلی لیتر مجموعه 3 عددی",
+        "img": "https://dkstatics-public.digikala.com/digikala-products/4b4f4f4612fe5969e34f3919985a211176216a04_1685631736.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90dkstatics-public.digikala.com/digikala-products/4b4f4f4612fe5969e34f3919985a211176216a04_1685631736.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90",
+        "discount": "10%",
+        "newPrice": "5,990,000",
+        "oldPrice": "6,656,000"
+      },
+      {
+        "id": 15,
+        "title": "وازلین وازلین مدل Aloe Fresh حجم 100 میلی لیتر",
+        "img": "https://dkstatics-public.digikala.com/digikala-products/21aad4554b1018e3d1e471e1340a6cb83270e4f9_1788862313.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90dkstatics-public.digikala.com/digikala-products/21aad4554b1018e3d1e471e1340a6cb83270e4f9_1788862313.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90",
+        "discount": "10%",
+        "newPrice": "1,290,000",
+        "oldPrice": "1,433,000"
+      },
+      {
+        "id": 16,
+        "title": "وازلین وازلین مدل jelly حجم 50 میلی لیتر بسته 2 عددی",
+        "img": "https://dkstatics-public.digikala.com/digikala-products/d3869f15503fbd4f93922d59bc6a6d7ab6f327b3_1629875732.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90dkstatics-public.digikala.com/digikala-products/d3869f15503fbd4f93922d59bc6a6d7ab6f327b3_1629875732.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90",
+        "discount": "5%",
+        "newPrice": "8,990,000",
+        "oldPrice": "9,463,000"
+      },
+      {
+        "id": 17,
+        "title": "وازلین فارمازین مدل VFO حجم 90 میلی لیتر",
+        "img": "https://dkstatics-public.digikala.com/digikala-products/3c45747b88028ca0b5f9d4f6b26503c890b4846d_1702451701.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90dkstatics-public.digikala.com/digikala-products/3c45747b88028ca0b5f9d4f6b26503c890b4846d_1702451701.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90",
+        "discount": "25%",
+        "newPrice": "1,790,000",
+        "oldPrice": "2,387,000"
+      },
+      {
+        "id": 18,
+        "title": "کرم مرطوب کننده ایلاول مدل آلوئه ورا حجم 200 میلی لیتر",
+        "img": "https://dkstatics-public.digikala.com/digikala-products/d70ab5d958646ebe82eefa49b95bc9270e59cab4_1715321093.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90dkstatics-public.digikala.com/digikala-products/d70ab5d958646ebe82eefa49b95bc9270e59cab4_1715321093.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90",
+        "discount": "",
+        "newPrice": "8,990,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 19,
+        "title": "وازلین رمکالی مدل اگزوزوم پلاس مناسب انواع پوست حجم 50 میلی لیتر",
+        "img": "https://dkstatics-public.digikala.com/digikala-products/a7eb89c70b7b817e53eadc53fb2e95f3a14a486e_1730709834.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90dkstatics-public.digikala.com/digikala-products/a7eb89c70b7b817e53eadc53fb2e95f3a14a486e_1730709834.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90",
+        "discount": "",
+        "newPrice": "3,990,000",
+        "oldPrice": ""
+      },
+      {
+        "id": 20,
+        "title": "وازلین وازلین مدل Protective Jelly حجم 100 میلی لیتر مجموعه 2 عددی",
+        "img": "https://dkstatics-public.digikala.com/digikala-products/4f61ce1593067ac6ba47f618ea2f30e8cc1ab38d_1713431817.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90dkstatics-public.digikala.com/digikala-products/4f61ce1593067ac6ba47f618ea2f30e8cc1ab38d_1713431817.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90",
+        "discount": "",
+        "newPrice": "349,000",
+        "oldPrice": ""
+      }
+    ]
+  },
   "brands": [
     {
       "title": "پریل",

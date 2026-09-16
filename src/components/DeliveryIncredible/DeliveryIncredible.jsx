@@ -6,7 +6,7 @@ import "swiper/css";
 import DeliveryProductCard from "./DeliveryProductCard";
 import LocationModal from "../Header/NavBar/maps/LocationModal";
 import useAddress from "../../Context/useAddress";
-import hours from "../../../public/images/inc/hours.png";
+import hours from "/images/inc/hours.png";
 
 export default function DeliveryIncredible() {
   const { selectedAddress, setSelectedAddress } = useAddress();
