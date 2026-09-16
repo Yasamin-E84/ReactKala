@@ -1,26 +1,17 @@
 import { useState } from "react";
 import LocationModal from "./LocationModal";
+import useAddress from "../../../../Context/useAddress";
 
 export default function AddressPicker() {
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedLocation, setSelectedLocation] = useState(null);
-  console.log(selectedLocation);
+  const { selectedAddress, setSelectedAddress } = useAddress();
 
   return (
     <>
       <button
         type="button"
         onClick={() => setIsOpen(true)}
-        className="
-          inline-flex h-9 items-center gap-2
-          rounded-full bg-orange-50 px-4
-          text-[13px] font-medium text-orange-600
-          transition
-          hover:bg-orange-100
-          active:scale-[0.98]
-          -mt-2
-          cursor-pointer
-        "
+        className="inline-flex h-9 cursor-pointer items-center gap-2 rounded-full bg-orange-50 px-4 text-[13px] font-medium text-orange-600 transition hover:bg-orange-100 active:scale-[0.98] -mt-2"
       >
         <svg
           width="18"
@@ -45,17 +36,18 @@ export default function AddressPicker() {
             strokeWidth="1.8"
           />
         </svg>
-        <span className="text-nowrap">انتخاب آدرس</span>
+
+        <span className="text-nowrap">
+          {selectedAddress ? "موقعیت انتخاب شده" : "انتخاب آدرس"}
+        </span>
       </button>
 
       <LocationModal
         isOpen={isOpen}
         onClose={() => setIsOpen(false)}
         onConfirm={(location) => {
-          setSelectedLocation(location);
+          setSelectedAddress(location);
           setIsOpen(false);
-
-          console.log("Selected location:", location);
         }}
       />
     </>

@@ -3,43 +3,32 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 
-import useFetch from "../Hooks/useFetch";
 import IncredibleHeader from "./IncredibleHeader";
 import IncredibleProductCard from "./IncredibleProductCard";
 
-export default function Incredible() {
-  const { data: products, error } = useFetch(
-    "http://localhost:5000/incredible",
-  );
-
+export default function Incredible({ className = "", classNameDesktop = "", incredible }) {
+  
+  
   const swiperRef = useRef(null);
   const [isBeginning, setIsBeginning] = useState(true);
   const [isEnd, setIsEnd] = useState(false);
-
+  
   const updateNavigation = (swiper) => {
     setIsBeginning(swiper.isBeginning);
     setIsEnd(swiper.isEnd);
   };
-
-  if (error) {
-    return (
-      <div className="mx-auto mt-6 flex w-full max-w-325 items-center justify-center rounded-xl bg-red-50 py-10 text-red-600">
-        Incredible products failed to load
-      </div>
-    );
-  }
-
-  if (!products?.length) return null;
+  
+  if (!incredible?.length) return null;
 
   return (
     <section className="mx-auto mt-6 w-full lg:max-w-325 lg:px-4">
       {/* MOBILE + TABLET */}
-      <div className="overflow-hidden bg-[#ef334f] lg:hidden py-3">
+      <div className={`overflow-hidden lg:hidden py-3 ${className}`}>
         <IncredibleHeader mobile />
 
         <div className="w-full overflow-x-auto overflow-y-hidden pb-0.5 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
           <div className="flex w-max min-w-full touch-pan-x gap-x-1">
-            {products.map((product, index) => (
+            {incredible.map((product, index) => (
               <div
                 key={product.id ?? index}
                 className={`h-60 w-32.5 shrink-0 ${index === 0 ? "mr-2" : ""}`}
@@ -60,7 +49,9 @@ export default function Incredible() {
       </div>
 
       {/* DESKTOP */}
-      <div className="relative hidden h-78.5 content-center place-items-center overflow-hidden rounded-2xl bg-[#ef334f] py-0.5 lg:flex">
+      <div
+        className={`relative hidden h-78.5 content-center place-items-center overflow-hidden rounded-2xl ${classNameDesktop} py-0.5 lg:flex`}
+      >
         <div className="w-41.25 shrink-0">
           <IncredibleHeader />
         </div>
@@ -82,7 +73,7 @@ export default function Incredible() {
             watchOverflow
             className="h-full w-full [&_.swiper-wrapper]:items-center"
           >
-            {products.map((product, index) => (
+            {incredible.map((product, index) => (
               <SwiperSlide
                 key={product.id ?? index}
                 className="h-70! w-42! shrink-0"
