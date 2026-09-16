@@ -5,10 +5,9 @@ import useFetch from "../../Hooks/useFetch";
 export default function Search() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const {
-    data: hotSearches,
-    error,
-  } = useFetch("http://localhost:5000/HotSearh");
+  const { data: hotSearches, error } = useFetch(
+    "http://localhost:5000/HotSearh",
+  );
 
   useEffect(() => {
     if (!isOpen) return;
@@ -63,13 +62,9 @@ export default function Search() {
           </svg>
 
           <div className="mr-3 flex min-w-0 flex-1 items-center gap-1 text-[13px]">
-            <span className="text-[#81858b]">
-              جستجو در
-            </span>
+            <span className="text-[#81858b]">جستجو در</span>
 
-            <span className="font-bold text-[#ef4056]">
-              دیجی‌کالا
-            </span>
+            <span className="font-bold text-[#ef4056]">دیجی‌کالا</span>
           </div>
 
           {/* camera */}
@@ -113,12 +108,7 @@ export default function Search() {
             text-[#3f4064]
           "
         >
-          <svg
-            width="21"
-            height="21"
-            viewBox="0 0 24 24"
-            fill="none"
-          >
+          <svg width="21" height="21" viewBox="0 0 24 24" fill="none">
             <path
               d="M18 8A6 6 0 0 0 6 8C6 15 3 16 3 16H21C21 16 18 15 18 8Z"
               stroke="currentColor"
@@ -139,7 +129,6 @@ export default function Search() {
       {isOpen &&
         createPortal(
           <div
-            dir="rtl"
             className="
               fixed
               inset-0
@@ -166,12 +155,7 @@ export default function Search() {
                   text-black
                 "
               >
-                <svg
-                  width="25"
-                  height="25"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                >
+                <svg width="25" height="25" viewBox="0 0 24 24" fill="none">
                   <path
                     d="M9 5L16 12L9 19"
                     stroke="currentColor"
@@ -285,16 +269,14 @@ export default function Search() {
                     >
                       <span>{item.title}</span>
 
-                      <span className="text-base">
-                        ↗
-                      </span>
+                      <span className="text-base">↗</span>
                     </button>
                   ))}
                 </div>
               </div>
             )}
           </div>,
-          document.body
+          document.body,
         )}
     </>
   );

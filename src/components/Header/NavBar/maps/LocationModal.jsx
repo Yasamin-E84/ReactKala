@@ -35,7 +35,6 @@ export default function LocationModal({ isOpen, onClose, onConfirm }) {
 
   return createPortal(
     <div
-      dir="rtl"
       onMouseDown={handleBackdropMouseDown}
       className="
         fixed inset-0 z-[9999]

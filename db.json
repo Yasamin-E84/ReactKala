@@ -5347,137 +5347,87 @@
     { "title": "عطر و ادکلن" },
     { "title": "محصولات آرایشی و بهداشتی" }
   ],
-  "Story": [
-    {
-      "text": "بالش طبی هوشمند مدل ...",
-      "img": "./img/story/img-1.jpg"
-    },
-    {
-      "text": "انواع ماسک اتومات جو...",
-      "img": "./img/story/img-2.jpg"
-    },
-    {
-      "text": "پروژکتور انکر مدل A2...",
-      "img": "./img/story/img-3.jpg"
-    },
-    {
-      "text": "تا قبل عید پوستتو نج...",
-      "img": "./img/story/img-4.jpg"
-    },
-    {
-      "text": "چرا لانچر نت باکس مت...",
-      "img": "./img/story/img-5.jpg"
-    },
-    {
-      "text": "جارو شارژی ارزون!",
-      "img": "./img/story/img-6.jpg"
-    },
-    {
-      "text": "منقل روزینکس",
-      "img": "./img/story/img-7.jpg"
-    },
-    {
-      "text": "یه بخاری بخاری دوقول...",
-      "img": "./img/story/img-8.jpg"
-    },
-    {
-      "text": "ساخت فلش انگشتی!",
-      "img": "./img/story/img-9.jpg"
-    },
-    {
-      "text": "مراحل پاک کردن آرایش",
-      "img": "./img/story/img-10.jpg"
-    },
-    {
-      "text": "انواع منگنه‌کوب دستی",
-      "img": "./img/story/img-11.jpg"
-    },
-    {
-      "text": "مقایسه‌ی نت باکس پرس",
-      "img": "./img/story/img-12.jpg"
-    }
-  ],
   "slider": [
     {
       "id": 207493,
-      "src": "./public/images/slider/img-1.gif",
+      "src": "/images/slider/img-1.gif",
       "Msrc": "./img/slider/M1.gif",
       "title": "طلا بدون سود بدون اجرت",
       "link": "#"
     },
     {
       "id": 207110,
-      "src": "./public/images/slider/img-2.jpg",
+      "src": "/images/slider/img-2.jpg",
       "Msrc": "./img/slider/M2.jpg",
       "title": "پارتنرشیپ-چرم مشهد",
       "link": "#"
     },
     {
       "id": 207170,
-      "src": "./public/images/slider/img-3.jpg",
+      "src": "/images/slider/img-3.jpg",
       "Msrc": "./img/slider/M3.jpg",
       "title": "پارتنرشیپ-ادز",
       "link": "#"
     },
     {
       "id": 205248,
-      "src": "./public/images/slider/img-4.jpg",
+      "src": "/images/slider/img-4.jpg",
       "Msrc": "./img/slider/M4.jpg",
       "title": "اقلام ضروری",
       "link": "#"
     },
     {
       "id": 207476,
-      "src": "./public/images/slider/img-5.jpg",
+      "src": "/images/slider/img-5.jpg",
       "Msrc": "./img/slider/M5.jpg",
       "title": "انواع پوشاک زنانه و مردانه",
       "link": "#"
     },
     {
       "id": 206747,
-      "src": "./public/images/slider/img-6.jpg",
+      "src": "/images/slider/img-6.jpg",
       "Msrc": "./img/slider/M6.jpg",
       "title": "خرید طلای دیجیتال",
       "link": "#"
     },
     {
       "id": 206919,
-      "src": "./public/images/slider/img-7.jpg",
+      "src": "/images/slider/img-7.jpg",
       "Msrc": "./img/slider/M7.jpg",
       "title": "بهترین گوشی‌های شیائومی",
       "link": "#"
     },
     {
       "id": 207477,
-      "src": "./public/images/slider/img-8.jpg",
+      "src": "/images/slider/img-8.jpg",
       "Msrc": "./img/slider/M8.jpg",
       "title": "خرید سرماه سلامت پزشکی",
       "link": "#"
     },
     {
       "id": 207481,
-      "src": "./public/images/slider/img-9.jpg",
+      "src": "/images/slider/img-9.jpg",
       "Msrc": "./img/slider/M9.jpg",
       "title": "موبایل اقتصادی",
       "link": "#"
     },
     {
       "id": 207483,
-      "src": "./public/images/slider/img-10.jpg",
+      "src": "/images/slider/img-10.jpg",
       "Msrc": "./img/slider/M10.jpg",
       "title": "لپ‌تاپ‌های متناسب",
       "link": "#"
     },
     {
       "id": 207427,
-      "src": "./public/images/slider/img-11.jpg",
+      "src": "/images/slider/img-11.jpg",
       "Msrc": "./img/slider/M11.jpg",
       "title": "خانه سبز - وب",
       "link": "#"
     },
     {
       "id": 207431,
-      "src": "./public/images/slider/img-12.jpg",
+      "src": "/images/slider/img-12.jpg",
       "Msrc": "./img/slider/M12.jpg",
       "title": "خونه مینیمال - وب",
       "link": "#"
@@ -5485,170 +5435,170 @@
   ],
   "list": [
     {
-      "icon": "./img/category/img-1.png",
-      "text": "ارسال‌فوری خواربار",
+      "icon": "/images/category/img-1.png",
+      "text": "سوپرمارکت",
       "url": "#"
     },
     {
-      "icon": "./img/category/img-2.png",
-      "text": "طلای دیجیتال",
+      "icon": "/images/category/img-2.webp",
+      "text": "طلای و نقره دیجیتال",
       "url": "#"
     },
     {
-      "icon": "./img/category/img-3.png",
-      "text": "پلاس",
+      "icon": "/images/category/img-3.webp",
+      "text": "همه چیز برای مدرسه",
       "url": "#"
     },
     {
-      "icon": "./img/category/img-4.png",
-      "text": "وام‌بانکی دیجی‌پی",
+      "icon": "/images/category/img-4.webp",
+      "text": "زندگی دانشجویی",
       "url": "#"
     },
     {
-      "icon": "./img/category/img-5.png",
-      "text": "استایل بهاری",
+      "icon": "/images/category/img-5.webp",
+      "text": "دیجی استایل",
       "url": "#"
     },
     {
-      "icon": "./img/category/img-6.png",
-      "text": "انتخاب پاوربانک",
+      "icon": "/images/category/img-6.webp",
+      "text": "پیشنهاد خریداران",
       "url": "#"
     },
     {
-      "icon": "./img/category/img-8.png",
-      "text": "تقویم 1405",
+      "icon": "/images/category/img-7.webp",
+      "text": "پرفروش‌های تابستون",
       "url": "#"
     },
     {
-      "icon": "./img/category/img-9.png",
-      "text": "نصب اپ",
+      "icon": "/images/category/img-8.webp",
+      "text": "پوشاک پیشنهادی",
       "url": "#"
     },
     {
-      "icon": "./img/category/img-10.png",
-      "text": "فروشنده شوید",
+      "icon": "/images/category/img-9.webp",
+      "text": "دیجی‌کارت",
       "url": "#"
     }
   ],
   "listModal": [
     {
-      "icon": "./img/category/modal/img-1.png",
+      "icon": "/images/category/modal/img-1.png",
       "text": "ارسال فوری خواربار",
       "link": "#"
     },
     {
-      "icon": "./img/category/modal/img-2.png",
+      "icon": "/images/category/modal/img-2.png",
       "text": "وام‌بانکی دیجی‌پی",
       "link": "#"
     },
     {
-      "icon": "./img/category/modal/img-3.png",
+      "icon": "/images/category/modal/img-3.png",
       "text": "استایل بهاری",
       "link": "#"
     },
     {
-      "icon": "./img/category/modal/img-4.png",
+      "icon": "/images/category/modal/img-4.png",
       "text": "انتخاب پاوربانک",
       "link": "#"
     },
     {
-      "icon": "./img/category/modal/img-5.png",
+      "icon": "/images/category/modal/img-5.png",
       "text": "تقویم 1405",
       "link": "#"
     },
     {
-      "icon": "./img/category/modal/img-6.png",
+      "icon": "/images/category/modal/img-6.png",
       "text": "نصب اپ",
       "link": "#"
     },
     {
-      "icon": "./img/category/modal/img-7.png",
+      "icon": "/images/category/modal/img-7.png",
       "text": "فروشنده شوید",
       "link": "#"
     },
     {
-      "icon": "./img/category/modal/img-8.png",
+      "icon": "/images/category/modal/img-8.png",
       "text": "پیشنهاد هفته",
       "link": "#"
     },
     {
-      "icon": "./img/category/modal/img-9.png",
+      "icon": "/images/category/modal/img-9.png",
       "text": "برق و شارژی",
       "link": "#"
     },
     {
-      "icon": "./img/category/modal/img-10.png",
+      "icon": "/images/category/modal/img-10.png",
       "text": "خریدحضوری ازدیجی‌کالا",
       "link": "#"
     },
     {
-      "icon": "./img/category/modal/img-11.png",
+      "icon": "/images/category/modal/img-11.png",
       "text": "سوپرمارکت",
       "link": "#"
     },
     {
-      "icon": "./img/category/modal/img-12.png",
+      "icon": "/images/category/modal/img-12.png",
       "text": "دیجی‌کلاب",
       "link": "#"
     }
   ],
   "modalService": [
     {
-      "pic": "./img/category/modal/pic-1.png",
+      "pic": "/images/category/modal/pic-1.png",
       "title": "طلای دیجیتال",
       "text": "",
       "link": "#"
     },
     {
-      "pic": "./img/category/modal/pic-2.png",
+      "pic": "/images/category/modal/pic-2.png",
       "title": "پلاس",
       "text": "خریدی سریع‌تر و راحت‌تر و ارزان‌تر از دیجی‌کالا",
       "link": "#"
     },
     {
-      "pic": "./img/category/modal/pic-3.png",
+      "pic": "/images/category/modal/pic-3.png",
       "title": "خرید قسطی",
       "text": "خرید قسطی گوشی موبایل، لپ‌تاپ، طلا و لوازم خانگی",
       "link": "#"
     },
     {
-      "pic": "./img/category/modal/pic-4.png",
+      "pic": "/images/category/modal/pic-4.png",
       "title": "دیجی‌کالا مهر",
       "text": "همه چیز برای این روزا",
       "link": "#"
     },
     {
-      "pic": "./img/category/modal/pic-5.png",
+      "pic": "/images/category/modal/pic-5.png",
       "title": "همکاری در فروش دیجی کالا",
       "text": "کسب درآمد از همکاری در فروش محصولات دیجی‌کالا از طریق تولید محتوا",
       "link": "#"
     },
     {
-      "pic": "./img/category/modal/pic-6.png",
+      "pic": "/images/category/modal/pic-6.png",
       "title": "دیجی‌کالا بیزینس",
       "text": "پلتفرم اختصاصی فروش عمده موبایل و کالای دیجیتال",
       "link": "#"
     },
     {
-      "pic": "./img/category/modal/pic-7.png",
+      "pic": "/images/category/modal/pic-7.png",
       "title": "پیندو",
       "text": "ثبت آگهی برای کالا و خدمات",
       "link": "#"
     },
     {
-      "pic": "./img/category/modal/pic-8.png",
+      "pic": "/images/category/modal/pic-8.png",
       "title": "بومی‌محلی",
       "text": "محصولات بومی و محلی با هدف توانمندسازی کسب‌وکارهای خرد شهری و روستایی در خانواده دیجی‌کالا ایجاد شده و میزبان محصولات اصیل و متفاوتی از چهارگوشه ایران است.",
       "link": "#"
     },
     {
-      "pic": "./img/category/modal/pic-9.png",
+      "pic": "/images/category/modal/pic-9.png",
       "title": "دیجی‌کالا سرویس",
       "text": "گارانتی و خدمات پس از فروش دیجی‌کالا",
       "link": "#"
     },
     {
-      "pic": "./img/category/modal/pic-10.png",
+      "pic": "/images/category/modal/pic-10.png",
       "title": "فیدیبو",
       "text": "خرید کتاب و دانلود کتاب الکترونیک",
       "link": "#"
@@ -5657,7 +5607,7 @@
   "incredible": [
     {
       "border": true,
-      "img": "./img/inc/img-1.jpg",
+      "img": "/images/inc/img-1.jpg",
       "title": "ساندبار هیسکا مدل B203",
       "discount": "۲۴٪",
       "newPrice": "۸,۹۹۰,۰۰۰",
@@ -5665,7 +5615,7 @@
     },
     {
       "border": false,
-      "img": "./img/inc/img-2.jpg",
+      "img": "/images/inc/img-2.jpg",
       "title": "ماساژور برقی ریمکس مدل RM-8787",
       "discount": "۴۵٪",
       "newPrice": "۶,۶۰۰,۰۰۰",
@@ -5673,7 +5623,7 @@
     },
     {
       "border": false,
-      "img": "./img/inc/img-3.jpg",
+      "img": "/images/inc/img-3.jpg",
       "title": "کنسول بازی سونی مدل PlayStation 5 Slim Digital",
       "discount": "۱۱٪",
       "newPrice": "۹۷,۹۹۹,۰۰۰",
@@ -5681,7 +5631,7 @@
     },
     {
       "border": false,
-      "img": "./img/inc/img-4.jpg",
+      "img": "/images/inc/img-4.jpg",
       "title": "ماشین لباسشویی ۹ کیلوگرم اتوماتیک دیپوینت",
       "discount": "۳۰٪",
       "newPrice": "۶۵,۵۰۰,۰۰۰",
@@ -5689,7 +5639,7 @@
     },
     {
       "border": false,
-      "img": "./img/inc/img-5.jpg",
+      "img": "/images/inc/img-5.jpg",
       "title": "گردنبند طلا ۱۸ عیار زنانه با زنجیر حلقه‌ای",
       "discount": "۱۴٪",
       "newPrice": "۱۴,۹۵۵,۵۵۰",
@@ -5697,7 +5647,7 @@
     },
     {
       "border": false,
-      "img": "./img/inc/img-6.jpg",
+      "img": "/images/inc/img-6.jpg",
       "title": "هواپز فیلیپس مدل NA230/00",
       "discount": "۱۳٪",
       "newPrice": "۱۴,۷۹۰,۰۰۰",
@@ -5706,7 +5656,7 @@
 
     {
       "border": false,
-      "img": "./img/inc/img-7.jpg",
+      "img": "/images/inc/img-7.jpg",
       "title": "جارو رباتیک شیائومی مدل S40",
       "discount": "۷٪",
       "newPrice": "۳۱,۴۹۹,۰۰۰",
@@ -5714,7 +5664,7 @@
     },
     {
       "border": false,
-      "img": "./img/inc/img-8.jpg",
+      "img": "/images/inc/img-8.jpg",
       "title": "ماشین اصلاح موی صورت و بدن بانوان مدل T1",
       "discount": "۴۰٪",
       "newPrice": "۸۳۷,۰۰۰",
@@ -5722,7 +5672,7 @@
     },
     {
       "border": false,
-      "img": "./img/inc/img-9.jpg",
+      "img": "/images/inc/img-9.jpg",
       "title": "خمیر دندان سفیدکننده میسویک مدل X-13",
       "discount": "۳۴٪",
       "newPrice": "۲۷۷,۷۰۰",
@@ -5730,7 +5680,7 @@
     },
     {
       "border": false,
-      "img": "./img/inc/img-10.jpg",
+      "img": "/images/inc/img-10.jpg",
       "title": "جارو رباتیک شیائومی مدل H40",
       "discount": "۴٪",
       "newPrice": "۴۳,۹۹۰,۰۰۰",
@@ -5738,7 +5688,7 @@
     },
     {
       "border": false,
-      "img": "./img/inc/img-11.jpg",
+      "img": "/images/inc/img-11.jpg",
       "title": "تونر پاک‌کننده صورت لورآل مدل مولتی اکتیو",
       "discount": "۴۰٪",
       "newPrice": "۱۷۵,۶۸۰",
@@ -5746,7 +5696,7 @@
     },
     {
       "border": false,
-      "img": "./img/inc/img-12.jpg",
+      "img": "/images/inc/img-12.jpg",
       "title": "تبلت اپل مدل iPad 11 2025 Wi-Fi 128GB",
       "discount": "۳٪",
       "newPrice": "۵۸,۹۹۹,۰۰۰",

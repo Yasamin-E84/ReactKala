@@ -1,11 +1,13 @@
 import Banner from "../banner/Banner";
-import Service from "../services/service";
+import Incredible from "../Incredible/Incredible";
+import ServiceList from "../ServiceList/ServiceList";
 
 const Home = () => {
   return (
     <div className="">
       <Banner />
-      <Service />
+      <ServiceList />
+      <Incredible />
     </div>
   );
 };

@@ -9,7 +9,6 @@ export default function MobileServices() {
 
   return (
     <div
-      dir="rtl"
       className="
         w-full
         overflow-x-auto

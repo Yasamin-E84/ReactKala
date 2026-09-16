@@ -5,7 +5,7 @@ import MobileLocation from "./MobileLocation";
 export default function MobileHeader() {
   return (
     <header
-      dir="rtl"
+       
       className="
         sticky top-0 z-50
         w-full

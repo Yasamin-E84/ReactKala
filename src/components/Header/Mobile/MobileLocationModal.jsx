@@ -1,12 +1,7 @@
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 
-import {
-  MapContainer,
-  TileLayer,
-  useMap,
-  useMapEvents,
-} from "react-leaflet";
+import { MapContainer, TileLayer, useMap, useMapEvents } from "react-leaflet";
 
 const TEHRAN = {
   lat: 35.6892,
@@ -67,32 +62,23 @@ function MapResizeFix() {
   return null;
 }
 
-export default function MobileLocationModal({
-  isOpen,
-  onClose,
-  onConfirm,
-}) {
-  const [location, setLocation] =
-    useState(TEHRAN);
+export default function MobileLocationModal({ isOpen, onClose, onConfirm }) {
+  const [location, setLocation] = useState(TEHRAN);
 
-  const [flyTarget, setFlyTarget] =
-    useState(null);
+  const [flyTarget, setFlyTarget] = useState(null);
 
   const [search, setSearch] = useState("");
-  const [searching, setSearching] =
-    useState(false);
+  const [searching, setSearching] = useState(false);
 
   useEffect(() => {
     if (!isOpen) return;
 
-    const oldOverflow =
-      document.body.style.overflow;
+    const oldOverflow = document.body.style.overflow;
 
     document.body.style.overflow = "hidden";
 
     return () => {
-      document.body.style.overflow =
-        oldOverflow;
+      document.body.style.overflow = oldOverflow;
     };
   }, [isOpen]);
 
@@ -114,7 +100,7 @@ export default function MobileLocationModal({
       });
 
       const response = await fetch(
-        `https://nominatim.openstreetmap.org/search?${params.toString()}`
+        `https://nominatim.openstreetmap.org/search?${params.toString()}`,
       );
 
       const result = await response.json();
@@ -138,22 +124,19 @@ export default function MobileLocationModal({
   const useMyLocation = () => {
     if (!navigator.geolocation) return;
 
-    navigator.geolocation.getCurrentPosition(
-      (position) => {
-        const next = {
-          lat: position.coords.latitude,
-          lng: position.coords.longitude,
-        };
+    navigator.geolocation.getCurrentPosition((position) => {
+      const next = {
+        lat: position.coords.latitude,
+        lng: position.coords.longitude,
+      };
 
-        setLocation(next);
-        setFlyTarget(next);
-      }
-    );
+      setLocation(next);
+      setFlyTarget(next);
+    });
   };
 
   return createPortal(
     <div
-      dir="rtl"
       className="
         fixed
         inset-0
@@ -191,12 +174,7 @@ export default function MobileLocationModal({
               text-[#424750]
             "
           >
-            <svg
-              width="22"
-              height="22"
-              viewBox="0 0 24 24"
-              fill="none"
-            >
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
               <path
                 d="M18 6L6 18M6 6L18 18"
                 stroke="currentColor"
@@ -233,18 +211,12 @@ export default function MobileLocationModal({
               stroke="currentColor"
               strokeWidth="1.8"
             />
-            <path
-              d="M16 16L21 21"
-              stroke="currentColor"
-              strokeWidth="1.8"
-            />
+            <path d="M16 16L21 21" stroke="currentColor" strokeWidth="1.8" />
           </svg>
 
           <input
             value={search}
-            onChange={(e) =>
-              setSearch(e.target.value)
-            }
+            onChange={(e) => setSearch(e.target.value)}
             onKeyDown={(e) => {
               if (e.key === "Enter") {
                 searchLocation();
@@ -305,9 +277,7 @@ export default function MobileLocationModal({
             }}
           />
 
-          <FlyController
-            target={flyTarget}
-          />
+          <FlyController target={flyTarget} />
         </MapContainer>
 
         {/* CENTER PIN */}
@@ -389,10 +359,7 @@ export default function MobileLocationModal({
           "
         >
           موقعیت من
-
-          <span className="text-lg">
-            ◎
-          </span>
+          <span className="text-lg">◎</span>
         </button>
       </div>
 
@@ -408,9 +375,7 @@ export default function MobileLocationModal({
       >
         <button
           type="button"
-          onClick={() =>
-            onConfirm(location)
-          }
+          onClick={() => onConfirm(location)}
           className="
             flex
             h-[49px]
@@ -428,6 +393,6 @@ export default function MobileLocationModal({
         </button>
       </div>
     </div>,
-    document.body
+    document.body,
   );
 }
