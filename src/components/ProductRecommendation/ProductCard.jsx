@@ -22,7 +22,7 @@ export default function ProductCard({ product }) {
         </p>
 
         <div className="mt-auto w-full ">
-          <div className="flex justify-end items-center gap-2 ml-5">
+          <div className="flex justify-end items-center gap-2 lg:ml-5">
             {product.discount && product.discount !== "0%" && (
               <span className="rounded-full bg-[#ef4056] px-2 py-0.5 text-[12px] font-bold text-white">
                 {toPersianNumber(product.discount)}

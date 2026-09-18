@@ -41,7 +41,7 @@ const Header = () => {
       <header className="hidden xl:block sticky top-0 z-50 w-full">
         <HeaderBanner />
 
-        <div className="relative h-19 w-full shadow-md shadow-black/30">
+        <div className="relative h-19 w-full shadow-md shadow-black/30 ">
           <SearchBar />
 
           <NavBarConsole

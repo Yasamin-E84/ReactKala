@@ -25,7 +25,7 @@ const HeaderBanner = () => {
   }
 
   return (
-    <div className="h-full w-full overflow-hidden">
+    <div className="h-15 w-full overflow-hidden">
       {data?.map((item) => (
         <img
           key={item.id}

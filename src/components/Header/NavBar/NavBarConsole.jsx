@@ -38,7 +38,7 @@ const NavBarConsole = ({ className = "" }) => {
     <div
       className={`absolute top-full left-0 z-200 w-full bg-white ${className}`}
     >
-      <div className="relative flex justify-between items-center pt-2 px-4 max-w-[2400px] min-w-350 w-[95%] mx-auto">
+      <div className="relative flex justify-between items-center pt-2 max-w-[1650px] min-w-350 w-[95%] mx-auto">
         <div className="flex justify-between items-center w-full">
           {/* CATEGORY AREA */}
           <div className="flex justify-center items-center">

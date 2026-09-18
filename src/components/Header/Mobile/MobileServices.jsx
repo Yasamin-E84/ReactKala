@@ -1,9 +1,7 @@
 import useFetch from "../../Hooks/useFetch";
 
 export default function MobileServices() {
-  const { data: services, error } = useFetch(
-    "http://localhost:5000/services"
-  );
+  const { data: services, error } = useFetch("http://localhost:5000/services");
 
   if (error || !services) return null;
 
@@ -54,11 +52,7 @@ export default function MobileServices() {
                 transition-colors
                 duration-200
 
-                ${
-                  isFirst
-                    ? "w-[48px]"
-                    : "w-[66px]"
-                }
+                ${isFirst ? "w-[48px]" : "w-[66px]"}
 
                 ${
                   item.active
@@ -73,11 +67,7 @@ export default function MobileServices() {
                 className={`
                   object-contain
 
-                  ${
-                    isFirst
-                      ? "h-[27px] w-[27px]"
-                      : "h-[34px] w-[34px]"
-                  }
+                  ${isFirst ? "h-[27px] w-[27px]" : "h-[34px] w-[34px]"}
                 `}
               />
 
@@ -93,11 +83,7 @@ export default function MobileServices() {
                     font-medium
                     leading-[14px]
 
-                    ${
-                      item.active
-                        ? "text-white"
-                        : "text-[#3f4064]"
-                    }
+                    ${item.active ? "text-white" : "text-[#3f4064]"}
                   `}
                 >
                   {item.Stitle}

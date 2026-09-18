@@ -26,7 +26,7 @@ export default function Incredible({ className = "", classNameDesktop = "", incr
       <div className={`overflow-hidden lg:hidden py-3 ${className}`}>
         <IncredibleHeader mobile />
 
-        <div className="w-full overflow-x-auto overflow-y-hidden pb-0.5 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
+        <div className="w-full overflow-x-auto overflow-y-hidden pb-0.5 scrollbar-none [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
           <div className="flex w-max min-w-full touch-pan-x gap-x-1">
             {incredible.map((product, index) => (
               <div
