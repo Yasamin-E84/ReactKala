@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none">
+    <polygon stroke="#444" stroke-linejoin="round" stroke-width="2" points="3 2 3 22 21 12"/>
+    <path stroke="#444" stroke-width="2" d="M3,2 L14,16"/>
+    <path stroke="#444" stroke-width="2" d="M3,8 L14,22" transform="matrix(1 0 0 -1 0 30)"/>
+  </g>
+</svg>
