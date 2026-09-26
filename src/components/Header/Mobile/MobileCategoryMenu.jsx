@@ -176,10 +176,19 @@ export default function MobileCategoryMenu({ open, setOpen, menuItems = [] }) {
   const { data, error } = useFetch("http://localhost:5000/mobileCategory");
   const [activeId, setActiveId] = useState(null);
   const [opened, setOpened] = useState(null);
+  const [isDesktop, setIsDesktop] = useState(() => window.matchMedia("(min-width: 1024px)").matches);
   const mainRef = useRef(null);
 
   useEffect(() => {
-    if (!open) return undefined;
+    const media = window.matchMedia("(min-width: 1024px)");
+    const updateViewport = () => setIsDesktop(media.matches);
+    updateViewport();
+    media.addEventListener("change", updateViewport);
+    return () => media.removeEventListener("change", updateViewport);
+  }, []);
+
+  useEffect(() => {
+    if (!open || isDesktop) return undefined;
     const previousOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
     const closeOnEscape = (event) => {
@@ -190,9 +199,9 @@ export default function MobileCategoryMenu({ open, setOpen, menuItems = [] }) {
       document.body.style.overflow = previousOverflow;
       window.removeEventListener("keydown", closeOnEscape);
     };
-  }, [open, setOpen]);
+  }, [isDesktop, open, setOpen]);
 
-  if (!open) return null;
+  if (!open || isDesktop) return null;
 
   const categories = data || [];
   const category = categories.find((item) => item.id === activeId) || categories[0];
@@ -206,7 +215,7 @@ export default function MobileCategoryMenu({ open, setOpen, menuItems = [] }) {
 
   return createPortal(
     <div
-      className="fixed inset-0 z-[60000] flex h-[100dvh] w-screen flex-col overflow-hidden bg-white xl:hidden"
+      className="fixed inset-0 z-[60000] flex h-[100dvh] w-screen flex-col overflow-hidden bg-white lg:hidden"
       dir="rtl"
       aria-label="دسته‌بندی محصولات"
     >

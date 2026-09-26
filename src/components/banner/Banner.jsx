@@ -6,9 +6,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import useFetch from "../Hooks/useFetch";
+import DigikalaLoader from "../Loader/DigikalaLoader";
 
 export default function Banner() {
-  const { data, error } = useFetch("http://localhost:5000/slider");
+  const { data, error, loading } = useFetch("http://localhost:5000/slider");
   const swiperRef = useRef(null);
 
   if (error) {
@@ -19,8 +20,10 @@ export default function Banner() {
     );
   }
 
+  if (loading) return <DigikalaLoader minHeight="190px" />;
+
   return (
-    <div className="relative w-full overflow-hidden py-3 md:py-0">
+    <div className="relative w-full overflow-hidden py-3 md:py-0 mt-35">
       <Swiper
         onSwiper={(swiper) => {
           swiperRef.current = swiper;

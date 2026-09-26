@@ -12,22 +12,42 @@ import RankedProducts from "../RankedProducts/RankedProducts";
 import ServiceList from "../ServiceList/ServiceList";
 import Suggestion from "../Suggestion/Suggestion";
 import Grouping from "../WeirdGroup/WeirdGrouping";
-const Home = () => {
-  const { data: ads, error: adsError } = useFetch("http://localhost:5000/ads");
-  const { data: ads2, error: ads2Error } = useFetch(
-    "http://localhost:5000/ads2",
-  );
-  const { data: incredible, incredibleError } = useFetch(
-    "http://localhost:5000/incredible",
-  );
-  const { data: incredible2, incredible2Error } = useFetch(
-    "http://localhost:5000/amazingmobile",
-  );
-  const { data: partner } = useFetch("http://localhost:5000/partner");
+import { ProgressiveSection } from "../Loader/PageLoadSequence";
 
-  const { data: partner2 } = useFetch("http://localhost:5000/partner2");
-  const { data: hotProducts } = useFetch("http://localhost:5000/hot");
-  const { data: indemandProducts } = useFetch("http://localhost:5000/indemand");
+const Home = () => {
+  const {
+    data: ads,
+    error: adsError,
+    loading: adsLoading,
+  } = useFetch("http://localhost:5000/ads");
+  const {
+    data: ads2,
+    error: ads2Error,
+    loading: ads2Loading,
+  } = useFetch("http://localhost:5000/ads2");
+  const {
+    data: incredible,
+    error: incredibleError,
+    loading: incredibleLoading,
+  } = useFetch("http://localhost:5000/incredible");
+  const {
+    data: incredible2,
+    error: incredible2Error,
+    loading: incredible2Loading,
+  } = useFetch("http://localhost:5000/amazingmobile");
+  const { data: partner, loading: partnerLoading } = useFetch(
+    "http://localhost:5000/partner",
+  );
+
+  const { data: partner2, loading: partner2Loading } = useFetch(
+    "http://localhost:5000/partner2",
+  );
+  const { data: hotProducts, loading: hotLoading } = useFetch(
+    "http://localhost:5000/hot",
+  );
+  const { data: indemandProducts, loading: indemandLoading } = useFetch(
+    "http://localhost:5000/indemand",
+  );
 
   if (adsError || ads2Error) {
     return (
@@ -46,48 +66,99 @@ const Home = () => {
 
   return (
     <div>
-      <Banner />
-
-      <ServiceList />
-
-      <Incredible
-        className="bg-[#ef334f]"
-        classNameDesktop="bg-[#ef334f]"
-        incredible={incredible}
-      />
-
-      <Advertisments ads={ads} />
-      <DeliveryIncredible />
-      <Advertisments ads={ads2} />
-      <Incredible
-        className="bg-[#6EB929]"
-        classNameDesktop="bg-[#6EB929]"
-        incredible={incredible2}
-      />
-      <Grouping />
-      <Partner partners={partner} />
-      <ProductRecommendation api="healthProducts" />
-      <ProductRecommendation api="schoolProducts" />
-      <Partner partners={partner2} />
-      <ProductRecommendation api="mobileProducts" />
-      <ProductRecommendation api="gamingProducts" />
-      <ProductRecommendation api="beautyProducts" />
-      <Brands />
-      <ProductRecommendation api="carProducts" />
-      <ProductRecommendation api="artProducts" />
-      <RankedProducts
-        title="پرفروش‌ترین‌ها"
-        icon="/images/hot.svg"
-        products={hotProducts}
-      />
-      <RankedProducts
-        title="داغ‌ترین چند ساعت گذشته"
-        icon="/images/hot.svg"
-        products={indemandProducts}
-      />
-      <Suggestion api="chosen"/>
-      <FixedHelp/>
-      <MobileBottomNav/>
+      <ProgressiveSection order={1} minHeight="190px">
+        <Banner />
+      </ProgressiveSection>
+      <ProgressiveSection order={2} minHeight="110px">
+        <ServiceList />
+      </ProgressiveSection>
+      <ProgressiveSection
+        order={3}
+        ready={!incredibleLoading}
+        minHeight="260px"
+      >
+        <Incredible
+          className="bg-[#ef334f]"
+          classNameDesktop="bg-[#ef334f]"
+          incredible={incredible}
+        />
+      </ProgressiveSection>
+      <ProgressiveSection order={4} ready={!adsLoading} minHeight="150px">
+        <Advertisments ads={ads} />
+      </ProgressiveSection>
+      <ProgressiveSection order={5} minHeight="300px">
+        <DeliveryIncredible />
+      </ProgressiveSection>
+      <ProgressiveSection order={6} ready={!ads2Loading} minHeight="150px">
+        <Advertisments ads={ads2} />
+      </ProgressiveSection>
+      <ProgressiveSection
+        order={7}
+        ready={!incredible2Loading}
+        minHeight="260px"
+      >
+        <Incredible
+          className="bg-[#6EB929]"
+          classNameDesktop="bg-[#6EB929]"
+          incredible={incredible2}
+        />
+      </ProgressiveSection>
+      <ProgressiveSection order={8} minHeight="180px">
+        <Grouping />
+      </ProgressiveSection>
+      <ProgressiveSection order={9} ready={!partnerLoading} minHeight="160px">
+        <Partner partners={partner} />
+      </ProgressiveSection>
+      <ProgressiveSection order={10} minHeight="280px">
+        <ProductRecommendation api="healthProducts" />
+      </ProgressiveSection>
+      <ProgressiveSection order={11} minHeight="280px">
+        <ProductRecommendation api="schoolProducts" />
+      </ProgressiveSection>
+      <ProgressiveSection order={12} ready={!partner2Loading} minHeight="160px">
+        <Partner partners={partner2} />
+      </ProgressiveSection>
+      <ProgressiveSection order={13} minHeight="280px">
+        <ProductRecommendation api="mobileProducts" />
+      </ProgressiveSection>
+      <ProgressiveSection order={14} minHeight="280px">
+        <ProductRecommendation api="gamingProducts" />
+      </ProgressiveSection>
+      <ProgressiveSection order={15} minHeight="280px">
+        <ProductRecommendation api="beautyProducts" />
+      </ProgressiveSection>
+      <ProgressiveSection order={16} minHeight="220px">
+        <Brands />
+      </ProgressiveSection>
+      <ProgressiveSection order={17} minHeight="280px">
+        <ProductRecommendation api="carProducts" />
+      </ProgressiveSection>
+      <ProgressiveSection order={18} minHeight="280px">
+        <ProductRecommendation api="artProducts" />
+      </ProgressiveSection>
+      <ProgressiveSection order={19} ready={!hotLoading} minHeight="280px">
+        <RankedProducts
+          title="پرفروش‌ترین‌ها"
+          icon="/images/hot.svg"
+          products={hotProducts}
+        />
+      </ProgressiveSection>
+      <ProgressiveSection order={20} ready={!indemandLoading} minHeight="280px">
+        <RankedProducts
+          title="داغ‌ترین چند ساعت گذشته"
+          icon="/images/hot.svg"
+          products={indemandProducts}
+        />
+      </ProgressiveSection>
+      <ProgressiveSection order={21} minHeight="500px">
+        <Suggestion api="chosen" />
+      </ProgressiveSection>
+      <ProgressiveSection order={22} minHeight="0">
+        <FixedHelp />
+      </ProgressiveSection>
+      <ProgressiveSection order={23} minHeight="0">
+        <MobileBottomNav />
+      </ProgressiveSection>
     </div>
   );
 };

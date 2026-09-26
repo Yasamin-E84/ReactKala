@@ -3,9 +3,10 @@ import "swiper/css";
 import useFetch from "../Hooks/useFetch";
 import { useRef, useState } from "react";
 import BrandsCard from "./BrandsCard";
+import DigikalaLoader from "../Loader/DigikalaLoader";
 
 export default function Brands() {
-  const { data: brands, error } = useFetch("http://localhost:5000/brands");
+  const { data: brands, error, loading } = useFetch("http://localhost:5000/brands");
 
   const swiperRef = useRef(null);
   const [isBeginning, setIsBeginning] = useState(true);
@@ -17,6 +18,7 @@ export default function Brands() {
   };
 
   if (error) return null;
+  if (loading) return <DigikalaLoader minHeight="220px" />;
   if (!brands) return null;
 
   return (

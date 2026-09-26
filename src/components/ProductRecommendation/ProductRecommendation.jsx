@@ -3,14 +3,16 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import useFetch from "../Hooks/useFetch";
 import ProductCard from "./ProductCard";
+import DigikalaLoader from "../Loader/DigikalaLoader";
 
 export default function ProductRecommendation({ api }) {
-  const { data: response, error } = useFetch(`http://localhost:5000/${api}`);
+  const { data: response, error, loading } = useFetch(`http://localhost:5000/${api}`);
 
   const swiperRef = useRef(null);
   const [isBeginning, setIsBeginning] = useState(true);
   const [isEnd, setIsEnd] = useState(false);
 
+  if (loading) return <DigikalaLoader minHeight="280px" />;
   if (error || !response) return null;
 
   const sections = Array.isArray(response) ? response : [response];

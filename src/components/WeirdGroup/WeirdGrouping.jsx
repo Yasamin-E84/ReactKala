@@ -1,11 +1,13 @@
 import useFetch from "../Hooks/useFetch";
 import GroupingCard from "./WeirdGroupingcard";
+import DigikalaLoader from "../Loader/DigikalaLoader";
 
 export default function Grouping() {
-  const { data: groups, error } = useFetch(
+  const { data: groups, error, loading } = useFetch(
     "http://localhost:5000/grouping"
   );
 
+  if (loading) return <DigikalaLoader minHeight="180px" />;
   if (error || !groups?.length) return null;
 
   // Split into rows of 9 like Digikala

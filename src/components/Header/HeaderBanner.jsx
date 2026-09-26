@@ -1,8 +1,10 @@
 import useFetch from "../Hooks/useFetch";
+import DigikalaLoader from "../Loader/DigikalaLoader";
+import { ProgressiveSection } from "../Loader/PageLoadSequence";
 
 const HeaderBanner = () => {
-  const { data, error } = useFetch(
-    "http://localhost:5000/HeaderBanner"
+  const { data, error, loading } = useFetch(
+    "http://localhost:5000/HeaderBanner",
   );
 
   if (error) {
@@ -23,24 +25,28 @@ const HeaderBanner = () => {
       </div>
     );
   }
-
+  if (loading) {
+    return <DigikalaLoader minHeight="60px" />;
+  }
   return (
-    <div className="h-15 w-full overflow-hidden">
-      {data?.map((item) => (
-        <img
-          key={item.id}
-          src={item.img}
-          alt={item.alt}
-          className="
-            block
-            h-full
-            w-full
-            object-cover
-            object-center
-          "
-        />
-      ))}
-    </div>
+    <ProgressiveSection order={0} ready={!loading} minHeight="60px">
+      <div className="h-15 w-full overflow-hidden">
+        {data?.map((item) => (
+          <img
+            key={item.id}
+            src={item.img}
+            alt={item.alt}
+            className="
+              block
+              h-full
+              w-full
+              object-cover
+              object-center
+            "
+          />
+        ))}
+      </div>
+    </ProgressiveSection>
   );
 };
 

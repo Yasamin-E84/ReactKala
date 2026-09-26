@@ -7,6 +7,7 @@ import DeliveryProductCard from "./DeliveryProductCard";
 import LocationModal from "../Header/NavBar/maps/LocationModal";
 import useAddress from "../../Context/useAddress";
 import { getApiData } from "../Hooks/useFetch";
+import DigikalaLoader from "../Loader/DigikalaLoader";
 import hours from "/images/inc/hours.png";
 
 export default function DeliveryIncredible() {
@@ -190,9 +191,12 @@ export default function DeliveryIncredible() {
         </div>
 
         {loading && (
+          <>
+            <DigikalaLoader className="pb-4" minHeight="80px" />
           <div className="px-4 pb-4 text-xs text-[#81858b]">
             در حال بررسی محصولات قابل ارسال...
           </div>
+          </>
         )}
       </div>
       <LocationModal

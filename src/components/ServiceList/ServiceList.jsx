@@ -1,11 +1,12 @@
 import useFetch from "../Hooks/useFetch";
 import { useState } from "react";
 import ServiceModalList from "./ServiceModalList";
+import DigikalaLoader from "../Loader/DigikalaLoader";
 
 export default function ServiceList() {
   const [openModal, setOpenModal] = useState(false);
 
-  const { data, error } = useFetch("http://localhost:5000/list");
+  const { data, error, loading } = useFetch("http://localhost:5000/list");
 
   if (error) {
     return (
@@ -14,6 +15,8 @@ export default function ServiceList() {
       </div>
     );
   }
+
+  if (loading) return <DigikalaLoader minHeight="110px" />;
 
   return (
     <>

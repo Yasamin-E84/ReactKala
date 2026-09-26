@@ -1,12 +1,14 @@
 import { useState } from "react";
 import useFetch from "../Hooks/useFetch";
 import SuggestionCard from "./SuggestionCard";
+import DigikalaLoader from "../Loader/DigikalaLoader";
 
 export default function Suggestion({ api }) {
-  const { data: section, error } = useFetch(`http://localhost:5000/${api}`);
+  const { data: section, error, loading } = useFetch(`http://localhost:5000/${api}`);
   const [extraProducts, setExtraProducts] = useState([]);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
 
+  if (loading) return <DigikalaLoader minHeight="500px" />;
   if (error || !section) return null;
 
   const handleLoadMore = () => {
