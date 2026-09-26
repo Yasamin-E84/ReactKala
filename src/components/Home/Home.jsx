@@ -153,12 +153,9 @@ const Home = () => {
       <ProgressiveSection order={21} minHeight="500px">
         <Suggestion api="chosen" />
       </ProgressiveSection>
-      <ProgressiveSection order={22} minHeight="0">
         <FixedHelp />
-      </ProgressiveSection>
-      <ProgressiveSection order={23} minHeight="0">
         <MobileBottomNav />
-      </ProgressiveSection>
+      <FixedHelp/>
     </div>
   );
 };

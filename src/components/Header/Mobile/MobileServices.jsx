@@ -29,7 +29,7 @@ export default function MobileServices({ compact = false }) {
               aria-label={title || "همه سرویس‌ها"}
               className={`flex shrink-0 flex-col items-center justify-center rounded-[8px] border transition-all duration-300 ease-out active:scale-[0.97] ${
                 compact
-                  ? `${isFirst ? "w-[42px]" : "w-[68px]"} h-[28px]`
+                  ? `${isFirst ? "w-[42px] h-[36px]" : "w-[68px] h-[28px]"}`
                   : `${isFirst ? "w-[48px]" : "w-[66px]"} h-[66px]`
               } ${
                 item.active
@@ -40,15 +40,21 @@ export default function MobileServices({ compact = false }) {
               <img
                 src={mobileImagePath(item.Simg)}
                 alt=""
-                className={`w-[34px] object-contain transition-[height,margin] duration-300 ease-out ${
-                  compact ? "h-0" : isFirst ? "h-[27px] w-[27px]" : "h-[34px]"
+                className={`object-contain ${
+                  compact
+                    ? isFirst
+                      ? "h-5 w-5"
+                      : "h-0 w-[34px]"
+                    : isFirst
+                      ? "h-[27px] w-[27px]"
+                      : "h-[34px] w-[34px]"
                 }`}
               />
 
               {title && (
                 <span
                   className={`max-w-full truncate px-1 text-center font-medium ${
-                    compact ? "text-[10px] leading-[13px]" : "mt-[3px] text-[10px] leading-[14px]"
+                    compact ? "text-[11px] leading-[13px]" : "mt-[3px] text-[11px] leading-[14px]"
                   } ${item.active ? "text-white" : "text-[#3f4064]"}`}
                 >
                   {title}

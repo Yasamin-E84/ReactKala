@@ -3,6 +3,7 @@ import db from "../../../db.json";
 
 import MegaMenuColumn from "./NavBar/MegaMenu/MegaMenuColumm";
 import MegaMenuIcon from "./NavBar/MegaMenu/MegaMenuIcon";
+import FixedHelp from "../FixedHelp/FixedHelp";
 
 export default function DesktopCategories() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -62,6 +63,7 @@ export default function DesktopCategories() {
           </div>
         </div>
       </section>
+      <FixedHelp/>
     </main>
   );
 }

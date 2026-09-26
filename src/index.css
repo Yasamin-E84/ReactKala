@@ -26,41 +26,21 @@
 .swiper-slide {
   height: auto;
 }
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
-}
-.scrollbar-hide {
-  scrollbar-width: none;
+::-webkit-scrollbar {
+  width: 8px;
+  height: 90px;
 }
 
-/* Main page scrollbar */
-html {
-  scrollbar-color: #8c837d #f5f5f5;
-  scrollbar-width: thin;
+::-webkit-scrollbar-track {
+  background: #f0f0f1;
 }
 
-html::-webkit-scrollbar {
-  width: 12px;
+::-webkit-scrollbar-thumb {
+  background: #c0c2c5;
 }
 
-html::-webkit-scrollbar-track {
-  background: #f5f5f5;
-  box-shadow: inset 1px 0 0 #d8d8d8;
+::-webkit-scrollbar-thumb:hover {
+  background: #c0c2c5;
 }
 
-html::-webkit-scrollbar-thumb {
-  min-height: 64px;
-  border: 2px solid #f5f5f5;
-  border-radius: 0;
-  background: #8c837d;
-}
 
-html::-webkit-scrollbar-thumb:hover {
-  background: #716964;
-}
-
-html::-webkit-scrollbar-button {
-  display: none;
-  height: 0;
-  width: 0;
-}
