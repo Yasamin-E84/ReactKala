@@ -38,7 +38,7 @@ const Header = () => {
         <MobileHeader />
       </div>
 
-      <header className="hidden xl:block sticky top-0 z-50 w-full">
+      <header className="hidden xl:block sticky top-0 z-50 w-full h-10">
         <HeaderBanner />
 
         <div className="relative h-19 w-full shadow-md shadow-black/30 ">

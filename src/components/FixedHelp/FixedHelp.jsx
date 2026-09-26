@@ -31,7 +31,7 @@ export default function FixedHelp() {
   }, []);
 
   return (
-    <div className="fixed bottom-6 left-6 z-[60] select-none">
+    <div className="fixed lg:bottom-6 lg:left-6 bottom-18 left-6 z-[60] select-none">
       {/* 4-second bouncing tooltip speech bubble */}
       <div
         dir="rtl"

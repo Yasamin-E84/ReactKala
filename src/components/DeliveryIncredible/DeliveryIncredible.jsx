@@ -6,6 +6,7 @@ import "swiper/css";
 import DeliveryProductCard from "./DeliveryProductCard";
 import LocationModal from "../Header/NavBar/maps/LocationModal";
 import useAddress from "../../Context/useAddress";
+import { getApiData } from "../Hooks/useFetch";
 import hours from "/images/inc/hours.png";
 
 export default function DeliveryIncredible() {
@@ -39,13 +40,7 @@ export default function DeliveryIncredible() {
           url = `http://localhost:5000/deliveryOffers?zone=${encodeURIComponent(zone)}`;
         }
 
-        const response = await fetch(url);
-
-        if (!response.ok) {
-          throw new Error("Failed to load delivery products");
-        }
-
-        const result = await response.json();
+        const result = await getApiData(url);
 
         setProducts(result);
       } catch (error) {
