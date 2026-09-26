@@ -30,7 +30,7 @@ const HeaderBanner = () => {
   }
   return (
     <ProgressiveSection order={0} ready={!loading} minHeight="60px">
-      <div className="h-15 w-full overflow-hidden">
+      <div className="lg:h-15 overflow-hidden h-10">
         {data?.map((item) => (
           <img
             key={item.id}

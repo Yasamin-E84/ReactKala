@@ -8,7 +8,7 @@ export default function MobileServices({ compact = false }) {
 
   return (
     <div
-      className={`w-full overflow-x-auto overflow-y-hidden border-b border-[#f0f0f1] bg-white [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden ${
+      className={`w-full overflow-x-auto overflow-y-hidden border-b border-[#f0f0f1] bg-white transition-[padding] duration-300 ease-out [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden ${
         compact ? "py-[2px]" : "py-[4px]"
       }`}
       dir="rtl"
@@ -27,9 +27,9 @@ export default function MobileServices({ compact = false }) {
               role="tab"
               aria-selected={Boolean(item.active)}
               aria-label={title || "همه سرویس‌ها"}
-              className={`flex shrink-0 flex-col items-center justify-center rounded-[8px] border transition-all duration-200 active:scale-[0.97] ${
+              className={`flex shrink-0 flex-col items-center justify-center rounded-[8px] border transition-all duration-300 ease-out active:scale-[0.97] ${
                 compact
-                  ? `${isFirst ? "w-[42px]" : "w-[68px]"} h-[36px]`
+                  ? `${isFirst ? "w-[42px]" : "w-[68px]"} h-[28px]`
                   : `${isFirst ? "w-[48px]" : "w-[66px]"} h-[66px]`
               } ${
                 item.active
@@ -37,19 +37,13 @@ export default function MobileServices({ compact = false }) {
                   : "border-[#e0e0e2] bg-white"
               }`}
             >
-              {(!compact || isFirst) && (
-                <img
-                  src={mobileImagePath(item.Simg)}
-                  alt=""
-                  className={
-                    compact
-                      ? "h-6 w-6 object-contain"
-                      : `object-contain ${
-                          isFirst ? "h-[27px] w-[27px]" : "h-[34px] w-[34px]"
-                        }`
-                  }
-                />
-              )}
+              <img
+                src={mobileImagePath(item.Simg)}
+                alt=""
+                className={`w-[34px] object-contain transition-[height,margin] duration-300 ease-out ${
+                  compact ? "h-0" : isFirst ? "h-[27px] w-[27px]" : "h-[34px]"
+                }`}
+              />
 
               {title && (
                 <span

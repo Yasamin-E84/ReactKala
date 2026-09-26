@@ -35,12 +35,12 @@
 
 /* Main page scrollbar */
 html {
-  scrollbar-color: #4b9fe8 #f5f5f5;
+  scrollbar-color: #8c837d #f5f5f5;
   scrollbar-width: thin;
 }
 
 html::-webkit-scrollbar {
-  width: 14px;
+  width: 12px;
 }
 
 html::-webkit-scrollbar-track {
@@ -50,11 +50,17 @@ html::-webkit-scrollbar-track {
 
 html::-webkit-scrollbar-thumb {
   min-height: 64px;
-  border: 3px solid #f5f5f5;
-  border-radius: 10px;
-  background: #4b9fe8;
+  border: 2px solid #f5f5f5;
+  border-radius: 0;
+  background: #8c837d;
 }
 
 html::-webkit-scrollbar-thumb:hover {
-  background: #2f89d7;
+  background: #716964;
+}
+
+html::-webkit-scrollbar-button {
+  display: none;
+  height: 0;
+  width: 0;
 }

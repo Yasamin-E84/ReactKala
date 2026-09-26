@@ -23,7 +23,7 @@ export default function Banner() {
   if (loading) return <DigikalaLoader minHeight="190px" />;
 
   return (
-    <div className="relative w-full overflow-hidden py-3 md:py-0 mt-35">
+    <div className="relative w-full overflow-hidden py-3 md:py-0 lg:mt-35">
       <Swiper
         onSwiper={(swiper) => {
           swiperRef.current = swiper;

@@ -80,16 +80,14 @@ export default function MobileHeader() {
       {scrollState.pinned && (
         <div
           aria-hidden="true"
-          className={scrollState.hideAddress ? "h-[133px]" : "h-[169px]"}
+          className={`transition-[height] duration-300 ease-out ${scrollState.hideAddress ? "h-[94px]" : "h-[169px]"}`}
         />
       )}
       <header
-        className={`${scrollState.pinned ? "fixed inset-x-0 top-0" : "relative"} z-50 w-full bg-white transition-transform duration-300 ease-out ${
-          scrollState.cropServices ? "-translate-y-9" : "translate-y-0"
-        }`}
+        className={`${scrollState.pinned ? "fixed inset-x-0 top-0" : "relative"} z-50 w-full bg-white`}
         dir="rtl"
       >
-        <MobileServices />
+        <MobileServices compact={scrollState.cropServices} />
 
         <MobileSearch />
 
