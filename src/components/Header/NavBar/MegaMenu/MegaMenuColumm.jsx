@@ -1,5 +1,3 @@
-const BASE_URL = import.meta.env.BASE_URL || "/";
-
 const ColumnTitle = ({ title }) => {
   return (
     <div className="titles w-full flex flex-row gap-1 border-r-2 border-r-[#ed1944] pr-2 group/child justify-start items-center  ">
@@ -7,17 +5,9 @@ const ColumnTitle = ({ title }) => {
         {title}
       </span>
 
-      <img
-        src={`${BASE_URL}img/Header/left-black.svg`}
-        alt=""
-        className="w-4.5 block group-hover/child:hidden"
-      />
-
-      <img
-        src={`${BASE_URL}img/Header/left-red.svg`}
-        alt=""
-        className="w-4.5 hidden group-hover/child:block"
-      />
+      <span aria-hidden="true" className="text-base leading-none text-black transition-colors group-hover/child:text-[#ed1944]">
+        ‹
+      </span>
     </div>
   );
 };
