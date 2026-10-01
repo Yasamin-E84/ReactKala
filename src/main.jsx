@@ -7,9 +7,9 @@ import "leaflet/dist/leaflet.css";
 
 import AddressProvider from "./Context/AddressProvider";
 import Header from "./components/Header/Header";
-import DesktopCategories from "./components/Header/DesktopCategories";
 import Home from "./components/Home/Home";
 import Footer from "./components/Footer/Footer";
+import MobileCategoriesRoute from "./components/MobileCategoriesRoute";
 import { PageLoadSequence, ProgressiveSection } from "./components/Loader/PageLoadSequence";
 
 const routerBase = import.meta.env.BASE_URL === "/" ? undefined : import.meta.env.BASE_URL;
@@ -24,7 +24,7 @@ createRoot(document.getElementById("root")).render(
 
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/categories/*" element={<DesktopCategories />} />
+            <Route path="/categories/*" element={<MobileCategoriesRoute />} />
           </Routes>
 
           <ProgressiveSection order={24} minHeight="0">
