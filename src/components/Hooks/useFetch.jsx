@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { assetPath } from "../../utils/paths";
 
-const databaseUrl = `${import.meta.env.BASE_URL}db.json`;
+const databaseUrl = `${import.meta.env.BASE_URL}db.json?v=${import.meta.env.VITE_BUILD_ID}`;
 
 function endpointFrom(url) {
   const parsed = new URL(url, window.location.origin);
