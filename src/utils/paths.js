@@ -4,6 +4,7 @@ const baseUrl = import.meta.env.BASE_URL;
 export function assetPath(path) {
   if (!path || typeof path !== "string") return path;
   if (/^(?:[a-z][a-z\d+.-]*:|#|data:)/i.test(path)) return path;
+  if (path.startsWith(baseUrl)) return path;
 
   const publicPath = path.startsWith("./src/assets/images/")
     ? `images/${path.slice("./src/assets/images/".length)}`
