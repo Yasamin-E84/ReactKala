@@ -6,11 +6,12 @@ import MobileServices from "./MobileServices";
 import MobileLocation from "./MobileLocation";
 import MobileSearch from "./MobileSearch";
 import { MOBILE_ROUTE_EVENT, replaceMobile } from "./mobileUtils";
+import { routePathname } from "../../../utils/paths";
 
 export default function MobileHeader() {
   const { data: menuItems } = useFetch("http://localhost:5000/mobileServices");
   const [scrollState, setScrollState] = useState({ pinned: false, hideAddress: false, cropServices: false });
-  const [pathname, setPathname] = useState(() => window.location.pathname);
+  const [pathname, setPathname] = useState(() => routePathname());
   const frame = useRef();
 
   useEffect(() => {
@@ -45,7 +46,7 @@ export default function MobileHeader() {
   }, []);
 
   useEffect(() => {
-    const syncPath = () => setPathname(window.location.pathname);
+    const syncPath = () => setPathname(routePathname());
     window.addEventListener("popstate", syncPath);
     window.addEventListener(MOBILE_ROUTE_EVENT, syncPath);
     return () => {

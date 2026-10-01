@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { assetPath } from "../../utils/paths";
 
 const databaseUrl = `${import.meta.env.BASE_URL}db.json`;
 
@@ -26,11 +27,8 @@ function withDeploymentAssetPaths(value) {
   }
 
   if (typeof value !== "string") return value;
-  if (value.startsWith("/images/")) {
-    return `${import.meta.env.BASE_URL}${value.slice(1)}`;
-  }
-  if (value.startsWith("./src/assets/images/")) {
-    return `${import.meta.env.BASE_URL}images/${value.slice("./src/assets/images/".length)}`;
+  if (value.startsWith("/images/") || value.startsWith("./src/assets/images/")) {
+    return assetPath(value);
   }
 
   return value;

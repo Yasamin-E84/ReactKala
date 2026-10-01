@@ -59,6 +59,7 @@ export default function MobileServices({ compact = false }) {
                 >
                   {title}
                 </span>
+                
               )}
             </button>
           );

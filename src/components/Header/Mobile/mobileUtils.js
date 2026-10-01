@@ -1,3 +1,5 @@
+import { appPath, assetPath } from "../../../utils/paths";
+
 export function cleanApiText(value) {
   if (typeof value !== "string") return value;
 
@@ -18,7 +20,7 @@ export function cleanApiText(value) {
 
 export function mobileImagePath(path) {
   if (!path) return "";
-  return path.startsWith("./") ? `/${path.slice(2)}` : path;
+  return assetPath(path);
 }
 
 export const MOBILE_ROUTE_EVENT = "reactkala:mobile-route";
@@ -29,11 +31,11 @@ export function notifyMobileRoute() {
 }
 
 export function navigateMobile(path, state = {}) {
-  window.history.pushState(state, "", path);
+  window.history.pushState(state, "", appPath(path));
   notifyMobileRoute();
 }
 
 export function replaceMobile(path, state = {}) {
-  window.history.replaceState(state, "", path);
+  window.history.replaceState(state, "", appPath(path));
   notifyMobileRoute();
 }

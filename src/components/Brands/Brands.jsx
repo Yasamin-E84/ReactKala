@@ -4,6 +4,7 @@ import useFetch from "../Hooks/useFetch";
 import { useRef, useState } from "react";
 import BrandsCard from "./BrandsCard";
 import DigikalaLoader from "../Loader/DigikalaLoader";
+import { assetPath } from "../../utils/paths";
 
 export default function Brands() {
   const { data: brands, error, loading } = useFetch("http://localhost:5000/brands");
@@ -25,7 +26,7 @@ export default function Brands() {
     <section className="mx-auto mt-6 w-full lg:max-w-325 lg:px-4">
       <div className="rounded-xl border border-[#e0e0e2] bg-white py-4">
         <div className="mb-5 flex items-center justify-start gap-2 px-2">
-          <img src="/images/brands/starblack.svg" alt="" />{" "}
+          <img src={assetPath("/images/brands/starblack.svg")} alt="" />{" "}
           <h2 className="text-lg font-bold text-[#23254e]">
             محبوب‌ترین برندها
           </h2>

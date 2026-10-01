@@ -5,6 +5,7 @@ import MobileServices from "./MobileServices";
 import MobileSearch from "./MobileSearch";
 import { ChevronIcon } from "./MobileIcons";
 import { cleanApiText } from "./mobileUtils";
+import { appPath } from "../../../utils/paths";
 
 function CategoryIcon({ id, className = "" }) {
   const common = {
@@ -154,7 +155,7 @@ function MenuBottomNav({ items = [], onClose }) {
           return (
             <a
               key={originalLabel}
-              href={destinations[originalLabel] || item.href || "#"}
+              href={appPath(destinations[originalLabel] || item.href || "#")}
               onClick={isHome ? (event) => {
                 event.preventDefault();
                 onClose();

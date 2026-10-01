@@ -1,5 +1,6 @@
 import { useState } from "react";
 import logo from "../../assets/images/Header/SearchBar/logo.png";
+import { assetPath } from "../../utils/paths";
 
 export default function DesktopFooter({ data }) {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -15,7 +16,7 @@ export default function DesktopFooter({ data }) {
             className="flex h-10 items-center gap-2 rounded-lg border border-[#e0e0e2] px-4 text-xs text-[#a1a3a8] hover:bg-[#fafafa]"
           >
             بازگشت به بالا
-            <img src="/images/footer/up.svg" alt="" className="h-4 w-4" />
+            <img src={assetPath("/images/footer/up.svg")} alt="" className="h-4 w-4" />
           </button>
         </div>
 

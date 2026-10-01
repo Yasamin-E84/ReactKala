@@ -4,6 +4,7 @@ import { useRef, useState } from "react";
 import "swiper/css";
 import "swiper/css/navigation";
 import RankedProductCard from "./RankedProductCard";
+import { assetPath } from "../../utils/paths";
 
 export default function RankedProducts({ title, products }) {
   products = products || [];
@@ -27,7 +28,7 @@ export default function RankedProducts({ title, products }) {
     <section className="mx-auto mt-6 w-full lg:max-w-325 lg:px-4">
       <div className="rounded-xl border border-[#e0e0e2] bg-white py-5">
         <div className="mb-5 flex items-center justify-start gap-2 px-2">
-          <img src="/images/hot/fire.svg" alt="" className="size-6" />
+          <img src={assetPath("/images/hot/fire.svg")} alt="" className="size-6" />
           <h2 className="text-xl font-bold text-[#23254e]">{title}</h2>
         </div>
 

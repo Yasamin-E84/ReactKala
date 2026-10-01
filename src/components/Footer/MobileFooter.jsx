@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { assetPath } from "../../utils/paths";
 
 export default function MobileFooter({ data }) {
   const [activeSection, setActiveSection] = useState(null);
@@ -18,7 +19,7 @@ export default function MobileFooter({ data }) {
           className="flex h-8 items-center gap-2 rounded-full bg-[#f0f0f1] px-4 text-[11px] text-[#3f4064]"
         >
           رفتن به بالا
-          <img src="/images/footer/up.svg" alt="" className="h-3 w-3" />
+          <img src={assetPath("/images/footer/up.svg")} alt="" className="h-3 w-3" />
         </button>
       </div>
 

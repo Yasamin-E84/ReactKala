@@ -5,6 +5,7 @@ import "swiper/css";
 
 import IncredibleHeader from "./IncredibleHeader";
 import IncredibleProductCard from "./IncredibleProductCard";
+import { assetPath } from "../../utils/paths";
 
 export default function Incredible({ className = "", classNameDesktop = "", incredible }) {
   
@@ -144,7 +145,7 @@ function ViewAllCard() {
       href="#"
       className="flex h-full w-full flex-col items-center justify-center gap-3 bg-white text-[#3f4064]"
     >
-      <img src="/images/inc/blackleft.svg" alt="" className="size-6" />
+      <img src={assetPath("/images/inc/blackleft.svg")} alt="" className="size-6" />
       <span className="text-xs font-medium">مشاهده همه</span>
     </a>
   );

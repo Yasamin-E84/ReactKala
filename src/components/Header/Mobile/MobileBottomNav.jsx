@@ -1,5 +1,6 @@
 import useFetch from "../../Hooks/useFetch";
 import { cleanApiText, navigateMobile } from "./mobileUtils";
+import { appPath } from "../../../utils/paths";
 
 const destinations = {
   "خانه": "/",
@@ -26,7 +27,7 @@ export default function MobileBottomNav() {
         const isCategory = originalLabel === "دسته‌بندی";
         const isHome = originalLabel === "خانه";
         const active = isHome;
-        const href = destinations[originalLabel] || item.href || "#";
+        const href = appPath(destinations[originalLabel] || item.href || "#");
 
         return (
           <a

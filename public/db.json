@@ -26,31 +26,31 @@
       "id": 1,
       "title": "َA56",
       "url": "/search/samsung-phone/",
-      "img": "./src/assets/images/Header/Navbar/arrow-trend-up-svgrepo-com.svg"
+      "img": "./src/assets/images/Header/SearchBar/arrow-trend-up-svgrepo-com.svg"
     },
     {
       "id": 2,
       "title": "s25 ultra",
       "url": "/search/xiaomi-phone/",
-      "img": "./src/assets/images/Header/Navbar/arrow-trend-up-svgrepo-com.svg"
+      "img": "./src/assets/images/Header/SearchBar/arrow-trend-up-svgrepo-com.svg"
     },
     {
       "id": 3,
       "title": "گوشی آیفون 16",
       "url": "/search/nokia-phone/",
-      "img": "./src/assets/images/Header/Navbar/arrow-trend-up-svgrepo-com.svg"
+      "img": "./src/assets/images/Header/SearchBar/arrow-trend-up-svgrepo-com.svg"
     },
     {
       "id": 4,
       "title": "s25 fe",
       "url": "/search/realme-phone/",
-      "img": "./src/assets/images/Header/Navbar/arrow-trend-up-svgrepo-com.svg"
+      "img": "./src/assets/images/Header/SearchBar/arrow-trend-up-svgrepo-com.svg"
     },
     {
       "id": 5,
       "title": "A26",
       "url": "/search/cypher-phone/",
-      "img": "./src/assets/images/Header/Navbar/arrow-trend-up-svgrepo-com.svg"
+      "img": "./src/assets/images/Header/SearchBar/arrow-trend-up-svgrepo-com.svg"
     }
   ],
   "megaMenu": [

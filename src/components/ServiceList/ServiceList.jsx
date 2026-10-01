@@ -2,6 +2,7 @@ import useFetch from "../Hooks/useFetch";
 import { useState } from "react";
 import ServiceModalList from "./ServiceModalList";
 import DigikalaLoader from "../Loader/DigikalaLoader";
+import { assetPath } from "../../utils/paths";
 
 export default function ServiceList() {
   const [openModal, setOpenModal] = useState(false);
@@ -72,7 +73,7 @@ export default function ServiceList() {
                 bg-[#f0f0f1]
               "
             >
-              <img src="/images/category/more.svg" alt="" className="h-8 w-8" />
+              <img src={assetPath("/images/category/more.svg")} alt="" className="h-8 w-8" />
             </div>
 
             <span className="text-center text-xs">بیشتر</span>
